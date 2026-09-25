@@ -1,0 +1,7 @@
+Zoominfo Scraper/
+.claude/settings.local.json
+*.csv
+screenshots/
+.env
+screenshot-to-code/
+Website Scrapes/
