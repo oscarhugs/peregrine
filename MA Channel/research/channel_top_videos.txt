@@ -1,0 +1,210 @@
+
+## MagnatesMedia: n=206 median=169,500 recent20median=642,000 total=182,179,111
+   12,000,000  70.8x 78m | The Secret Chinese Company That Owns Everything
+    7,700,000  45.4x 49m | Rockefeller: The World’s First Billionaire
+    7,600,000  44.8x 33m | The Disturbing History of Coca-Cola
+    6,500,000  38.3x 68m | Why Netflix is Collapsing: The Truth About Netflix's Empire
+    6,000,000  35.4x 44m | The Most Illegal Business In The World: Silk Road
+    5,300,000  31.3x 15m | The Homeless Teen Who Created Louis Vuitton
+    5,200,000  30.7x 30m | How WhatsApp Makes Money: The INSANE Story of WhatsApp
+    5,100,000  30.1x 15m | Levels of Wealth: Inside The Secret Lives of The Ultra-Rich
+    4,600,000  27.1x 19m | Ponzi: The Financial Idiot Who Scammed the World
+    4,300,000  25.4x 18m | J.P. Morgan: The Man Who Owned America
+    4,300,000  25.4x 28m | The Man Who Robbed An Entire Country
+    3,900,000  23.0x 33m | How A Kid With $0 Created Nike
+
+## companyman114: n=400 median=341,500 recent20median=149,000 total=218,119,000
+    6,400,000  18.7x 11m | The Decline of Chuck E. Cheese's...What Happened?
+    4,400,000  12.9x 11m | The Decline of Pizza Hut...What Happened?
+    3,900,000  11.4x 12m | The Decline of KFC...What Happened?
+    3,700,000  10.8x 11m | The Decline of Long John Silver's...What Happened?
+    3,100,000   9.1x 12m | The Decline of Sbarro...What Happened?
+    3,000,000   8.8x 11m | The Decline of Quiznos...What Happened?
+    2,700,000   7.9x 11m | The Decline of CiCi's Pizza...What Happened?
+    2,500,000   7.3x 12m | Electronic Arts - Why They're Hated
+    2,300,000   6.7x 11m | RC Cola - Why It Failed
+    2,300,000   6.7x 11m | Chick-fil-A - Why They're Successful
+    2,100,000   6.1x 13m | Arby's - The Rise and Fall...And Rise Again
+    1,900,000   5.6x 12m | Popeyes - The Rise and Fall...and Rise Again
+
+## ModernMBA: n=83 median=600,000 recent20median=254,500 total=62,464,000
+    3,500,000   5.8x 28m | Fried Chicken Wars: The Fall of KFC in America
+    3,400,000   5.7x 24m | The Timeless Business of Steakhouses
+    3,400,000   5.7x 25m | Why Airbnb Fails to Disrupt the Hotel Industry
+    2,200,000   3.7x 29m | Why Crumbl Cookies Can't Survive
+    1,900,000   3.2x 27m | The Rigged Economics of Airlines
+    1,900,000   3.2x 32m | The Secret Business of Nightclubs
+    1,600,000   2.7x 53m | The Crumbling Business of Marijuana
+    1,600,000   2.7x 44m | How Boba Shops Really Make Money
+    1,600,000   2.7x 14m | How Casper Failed & Why DTC Startups Lose Money
+    1,400,000   2.3x 33m | The Territorial Business of Tacos
+    1,200,000   2.0x 25m | The Invincible Business of Diners
+    1,200,000   2.0x 28m | How Cruises Make More Profits Than Airlines
+
+## ColdFusion: n=392 median=807,000 recent20median=767,500 total=518,812,000
+   17,000,000  21.1x 23m | Three Men Lost in Space – The Apollo 13 Disaster
+   12,000,000  14.9x 24m | Theranos – Silicon Valley’s Greatest Disaster
+    8,700,000  10.8x 29m | The FTX Disaster is Deeper Than you Think
+    8,600,000  10.7x 19m | Enron - The Biggest Fraud in History
+    7,300,000   9.0x 21m | Who Controls All of Our Money?
+    7,000,000   8.7x 7m | Ex-Apple CEO Starts His Own Phone Company!
+    6,900,000   8.6x 17m | 'Fake Bitcoin' - How this Woman Scammed the World, then Vanished
+    6,300,000   7.8x 25m | How to Lie Your Way to $34 Billion [Nikola Motors Fraud]
+    6,200,000   7.7x 38m | How the 2008 Financial Crisis Still Affects You
+    5,800,000   7.2x 29m | How is Money Created? – Everything You Need to Know
+    5,800,000   7.2x 12m | Next Generation Robots - Boston Dynamics, Asimo, Da Vinci, SoFi
+    5,600,000   6.9x 11m | Exploring the Dark Web
+
+## wallstreetmillennial: n=400 median=99,500 recent20median=113,000 total=53,606,000
+    1,600,000  16.1x 14m | The Rise and Fall of Richard Branson
+      699,000   7.0x 11m | South Korea's Ponzi-Like Rental System Is Imploding
+      598,000   6.0x 15m | FatBurger's $47 Million Fraud Explained
+      564,000   5.7x 18m | The $1 Billion Nigerian Company That Doesn't Exist
+      551,000   5.5x 23m | SBF Will Spend The Rest of His Life In Prison
+      525,000   5.3x 13m | The Real Reason Temu Can Offer Such Low Prices
+      502,000   5.0x 12m | Why Does Saudi Arabia Keep Bailing Out Lucid?
+      466,000   4.7x 21m | Quantum Computing: Tech's Longest-Running Hoax
+      447,000   4.5x 15m | China Will Create A Historic Memory Glut
+      442,000   4.4x 16m | PayPal Is In Crisis
+      406,000   4.1x 14m | What Ever Happened To Rivian?
+      404,000   4.1x 21m | The Celsius Fraud Is Even Worse Than We Thought
+
+## LogicallyAnswered: n=400 median=178,500 recent20median=196,000 total=113,065,120
+    3,000,000  16.8x 13m | YouTubers Sold Out To Skillshare. The Truth.
+    2,600,000  14.6x 16m | From Bankruptcy To Billions: The Rebirth Of Nokia
+    2,200,000  12.3x 21m | When Exploiting Customers Becomes Unprofitable: Sprint's Painful Death
+    1,800,000  10.1x 17m | From $10 Billion To Nothing: How Wish.com Lost Everything
+    1,600,000   9.0x 12m | How YouTubers Exposed A $1 Billion Company
+    1,400,000   7.8x 14m | It's (Finally) Bursting...
+    1,400,000   7.8x 13m | Whatever Happened To Computer Viruses?
+    1,300,000   7.3x 15m | $1 Billion To Forgotten: How Dollar Shave Club Lost Everything
+    1,300,000   7.3x 16m | Apple Thought They Were Unbeatable...Ended Up Losing $1 Trillion
+    1,300,000   7.3x 18m | How A YouTube Review Exposed An $8 Billion Company
+    1,200,000   6.7x 17m | Adobe Is (Finally) Getting What They Deserve...
+    1,200,000   6.7x 13m | No One Is Using CoPilot...
+
+## HowMoneyWorks: n=276 median=741,000 recent20median=740,500 total=259,313,000
+    6,100,000   8.2x 10m | Your Job Achieves Nothing... (probably)
+    4,800,000   6.5x 10m | How The Wolf of Wall Street Scam Actually Worked
+    4,000,000   5.4x 11m | If Nobody Can Afford A Home... Who's Going To Buy Them?
+    3,900,000   5.3x 13m | The (Overdue) Collapse Of Short Term Rentals
+    3,800,000   5.1x 10m | Here's Why You Want A Really Boring Job
+    3,300,000   4.5x 11m | The (Overdue) Collapse of the 9-5 Job
+    3,200,000   4.3x 13m | Online Piracy's Great Comeback
+    3,200,000   4.3x 12m | If AI Takes All Of Our Jobs... Who's Going To Buy Everything?
+    3,000,000   4.0x 13m | How To (Semi) Legally Launder Money
+    2,900,000   3.9x 18m | Why A National Debt Default Now Looks Genuinely Possible... (sort of)
+    2,800,000   3.8x 23m | We (Still) Don't Know How Epstein Got So Rich...
+    2,700,000   3.6x 13m | The McRecession - Has Fast Food Cooked Itself?
+
+## BusinessCasual: n=91 median=576,000 recent20median=394,500 total=101,455,000
+    5,600,000   9.7x 9m | How Rockefeller Built His Trillion Dollar Oil Empire
+    5,200,000   9.0x 40m | J.P. Morgan Documentary: How One Man Financed America
+    5,100,000   8.9x 10m | Rise of the Rothschilds: The World's Richest Family
+    4,500,000   7.8x 12m | Lamborghini: Never Insult a Tractor Tycoon
+    4,000,000   6.9x 14m | How Andrew Carnegie Became The Richest Man In The World
+    3,800,000   6.6x 8m | The Rise of Nike: How One Man Built a Billion-Dollar Brand
+    3,000,000   5.2x 9m | How Elon Saved SpaceX & Tesla ... At The Same Time
+    2,900,000   5.0x 10m | How Soros Made A Billion Dollars And Almost Broke Britain
+    2,800,000   4.9x 7m | Here's Why China Is Killing The Global Recycling Industry
+    2,700,000   4.7x 10m | Why Windows Phone Failed - And How They Could've Saved It
+    2,600,000   4.5x 9m | How Microsoft Saved Apple (And Why They Did It)
+    2,400,000   4.2x 13m | Monsanto: The Company that Owns the World’s Food Supply
+
+## Newsthink: n=245 median=174,000 recent20median=76,500 total=155,366,000
+    8,800,000  50.6x 22m | One Mistake Took Down a 29-Yr-Old Dark Web Drug Lord
+    7,300,000  42.0x 7m | The Simple Question that Stumped Everyone Except Marilyn vos Savant
+    6,400,000  36.8x 12m | The Tragic Story of Nikola Tesla
+    5,100,000  29.3x 5m | What Makes Teslas So Safe
+    4,600,000  26.4x 9m | The Secret Side of Sir Isaac Newton
+    4,500,000  25.9x 14m | The Sad Story of the Smartest Man Who Ever Lived
+    4,400,000  25.3x 6m | The Entire World Relies on a Machine Made by ONE Company
+    4,300,000  24.7x 17m | How the Atomic Bomb Destroyed the Life of its Creator
+    4,100,000  23.6x 25m | How the Greatest Hacker Manipulated Everyone
+    3,900,000  22.4x 5m | Why So Many CEOs Are Engineers
+    3,500,000  20.1x 12m | How the Genius of Marie Curie Killed Her
+    3,500,000  20.1x 5m | Why Elon Musk Lives in a $50,000 House
+
+## EconomicsExplained: n=370 median=667,000 recent20median=495,000 total=361,560,000
+   14,000,000  21.0x 18m | MIT Has Predicted that Society Will Collapse in 2040 | Economics Explained
+    7,900,000  11.8x 16m | How The Dutch Economy Shows We Can't Reduce Wealth Inequality With Taxes | Economics Explained
+    7,400,000  11.1x 16m | Young Generations Are Now Poorer Than Their Parents And It's Changing Our Economies
+    5,300,000   7.9x 18m | The Rather Pathetic Economy of Russia | Economics Explained
+    5,200,000   7.8x 14m | How the World's Richest Country Lost 90% of its GDP
+    4,400,000   6.6x 13m | Why are Billions of Dollars Worth of Ships Being Intentionally Destroyed? | Economics Explained
+    4,300,000   6.4x 18m | Why You Should Be Worried About China's Debt Crisis | Economics Explained
+    3,700,000   5.5x 22m | Why Türkiye Is Not Fixing It's Hyperinflation Problem | Economics Explained
+    3,600,000   5.4x 13m | Why Everyone is Leaving New Zealand
+    3,500,000   5.2x 13m | China Has A Debt Problem Three Times Larger Than Evergrande | Economics Explained
+    3,500,000   5.2x 13m | How Has Brexit Been Going? | Economics Explained
+    3,200,000   4.8x 17m | Something Terrible Is Happening in Italy
+
+## PolyMatter: n=176 median=912,500 recent20median=205,000 total=233,820,000
+    7,600,000   8.3x 11m | Zimbabwe’s Currency Crisis: the worthless $100 trillion bill
+    5,800,000   6.4x 8m | Apple's Money Problem (& Why It Won't Buy Netflix)
+    5,200,000   5.7x 11m | Why China Ended its One-Child Policy
+    5,100,000   5.6x 8m | How Cruise Ships Work
+    5,000,000   5.5x 13m | How North Korea Makes Money
+    4,700,000   5.2x 10m | Why Bing Isn't a Failure (& the Future of the Internet)
+    4,500,000   4.9x 12m | Why 50 Million Chinese Homes are Empty
+    4,400,000   4.8x 11m | Why In-N-Out Isn't Coming to a City Near You
+    4,200,000   4.6x 8m | Why Costco is Cheaper than Amazon
+    4,200,000   4.6x 12m | The True Cost of the iPhone
+    3,900,000   4.3x 9m | How McDonald's Really Makes Money
+    3,900,000   4.3x 9m | How Somalia’s Pirates Make Money
+
+## BarelySociable: n=34 median=2,250,000 recent20median=2,250,000 total=91,227,000
+   13,000,000   5.8x 74m | The Dark Side Of The Silk Road
+    4,800,000   2.1x 57m | Dream - The Infiltration Of The Dark Net
+    4,100,000   1.8x 27m | The Book Tied To 75,000 Disappearances
+    4,100,000   1.8x 22m | The Scientist That "Discovered Antigravity" Then Disappeared Completely - An Unsolved Mystery
+    3,900,000   1.7x 83m | The Music Industry’s Darkest Secret
+    3,800,000   1.7x 12m | The Mysterious Phone Number From The 90's
+    3,800,000   1.7x 21m | Mortis - Internet Mysteries
+    3,700,000   1.6x 48m | The Pemberton Incident - An Unsolved Mystery
+    3,500,000   1.6x 26m | The Mysterious Black Box Of Flight 980 - An Unsolved Mystery
+    3,300,000   1.5x 20m | Lake City Quiet Pills Explained - Reddit Mysteries
+    3,100,000   1.4x 48m | The Most Corrupt Investigation In Aviation History - The Mysterious Fate Of Pan Am Flight 7
+    2,700,000   1.2x 9m | Who Is Canada's Unidentified Maximum Security Prisoner?
+
+## Fern-TV: n=140 median=3,800,000 recent20median=4,050,000 total=638,100,000
+   21,000,000   5.5x 6m | Mapping the Trump Shooting
+   19,000,000   5.0x 23m | The Kids Who Hacked The CIA
+   16,000,000   4.2x 18m | The Hunt for the King of the Dark Web
+   14,000,000   3.7x 41m | How an FBI Agent Infiltrated the KKK
+   11,000,000   2.9x 28m | The Hunt for America's Smartest Killer
+   11,000,000   2.9x 27m | The Kids Who Hacked Xbox
+   10,000,000   2.6x 28m | The Death of Educational Content on YouTube
+   10,000,000   2.6x 20m | The Biggest Nuke in History
+    9,600,000   2.5x 21m | The Hunt for America's Deadliest Hitman
+    8,600,000   2.3x 20m | The Hunt for El Chapo
+    8,400,000   2.2x 22m | The Hunt for Ted Bundy
+    8,200,000   2.2x 14m | The Genius Design of Narco Submarines
+
+## TheSwedishInvestor: n=156 median=180,000 recent20median=94,500 total=63,147,000
+    5,700,000  31.7x 15m | THE PSYCHOLOGY OF MONEY (BY MORGAN HOUSEL)
+    5,300,000  29.4x 23m | The Intelligent Investor’s Road to $1,000,000
+    3,500,000  19.4x 13m | THE INTELLIGENT INVESTOR SUMMARY (BY BENJAMIN GRAHAM)
+    2,200,000  12.2x 41m | How Warren Buffett Made His First $1,000,000
+    2,100,000  11.7x 24m | Warren Buffett: 12 Mistakes Every Investor Makes
+    1,600,000   8.9x 10m | Warren Buffett: The 3 Times When You Should Sell a Stock
+    1,400,000   7.8x 70m | Warren Buffett’s 25 Most Important Investments Ever (RANKED!)
+    1,300,000   7.2x 12m | THINK AND GROW RICH SUMMARY (BY NAPOLEON HILL)
+    1,300,000   7.2x 7m | THE RICHEST MAN IN BABYLON SUMMARY (BY GEORGE S CLASON)
+    1,000,000   5.6x 12m | WARREN BUFFETT AND THE INTERPRETATION OF FINANCIAL STATEMENTS
+    1,000,000   5.6x 15m | WARREN BUFFETT: THE SNOWBALL (BY ALICE SCHROEDER)
+      933,000   5.2x 22m | The $25B Day Trader that Even Warren Buffett Acknowledges
+
+## MoneyMacro: n=135 median=247,000 recent20median=240,500 total=50,978,000
+    5,100,000  20.6x 23m | Why Trump's tariff chaos actually makes sense (big picture)
+    1,800,000   7.3x 35m | The Economy of Japan: how a Superpower Fell from Grace in Four Decades
+    1,700,000   6.9x 39m | How the Nazis created an economic miracle
+    1,700,000   6.9x 23m | Economist explains why India can never grow like China
+    1,300,000   5.3x 23m | Economist Fact-Checks Zeihan's China Collapse Story
+    1,200,000   4.9x 30m | Economist explains why China's growth miracle is failing
+    1,200,000   4.9x 28m | Economist Fact-Checks Johnny Harris
+    1,100,000   4.5x 14m | China's Economy is 60% Smaller Than We Thought
+      982,000   4.0x 10m | Nonsense! China's Economy Will NOT Collapse
+      967,000   3.9x 22m | Sanctions, 1 Year Later
+      898,000   3.6x 11m | Economist explains why Europeans are getting poorer… and happier
+      888,000   3.6x 13m | How Erdogan "Saved" Turkey's Economy
