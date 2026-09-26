@@ -1,0 +1,41 @@
+{
+  "video": "_test",
+  "wpm": 150,
+  "beats": [
+    {
+      "id": "00-01", "section": "A partnership under strain", "vo": "In January 2006, Disney announced it would acquire Pixar in an all-stock deal valued at about seven point four billion dollars. Pixar had made hits such as Toy Story and Finding Nemo.", "est_sec": 12.6,
+      "visual": {"type": "stock", "brief": "An empty boardroom before the meeting begins.",
+                 "search": "empty boardroom", "on_screen_text": "THE PROMISE", "music": "silence"}
+    },
+    {
+      "id": "00-02", "section": "A partnership under strain", "vo": "Disney had distributed those films, but the companies had disagreed over the terms of their relationship.", "est_sec": 6.9,
+      "visual": {"type": "title_card", "brief": "The numbers behind the deal",
+                 "on_screen_text": "THE NUMBERS", "music": "silence"}
+    },
+    {
+      "id": "00-03", "section": "A partnership under strain", "vo": "The purchase gave Disney Pixar's creative pipeline and brought its leaders into influential roles at Disney Animation.", "est_sec": 8.0,
+      "visual": {"type": "chart", "brief": "A simple timeline of the sample deal.",
+                 "chart_spec": {"type": "timeline", "theme": "paper",
+                   "source_line": "Illustrative test fixture (not evidence)", "events": [
+                   {"date": "Step 1", "label": "Deal announced"},
+                   {"date": "Step 2", "label": "Teams integrate"}]},
+                 "music": "silence"}
+    },
+    {
+      "id": "01-01", "section": "What changed", "vo": "Steve Jobs, Pixar's largest shareholder, became Disney's largest individual shareholder after the transaction. John Lasseter took a creative leadership role across the studios.", "est_sec": 10.0,
+      "visual": {"type": "archival", "brief": "An archival transaction announcement.",
+                 "search": "transaction press release archive", "music": "silence"}
+    },
+    {
+      "id": "01-02", "section": "What changed", "vo": "Disney was buying a working animation culture as well as a library of characters. That is the question every creative acquisition faces: can the buyer gain the talent without crushing the system that produced it?", "est_sec": 14.0,
+      "visual": {"type": "doc_highlight", "brief": "Highlight the original filing.",
+                 "doc": {"source": "S99", "quote": "The board reviewed the proposed transaction."},
+                 "music": "silence"}
+    },
+    {
+      "id": "01-03", "section": "What changed", "vo": "In this case, people mattered as much as the financial terms. Pixar needed room to keep making films in its distinct voice.", "est_sec": 9.0,
+      "visual": {"type": "ai_image", "brief": "A symbolic paper trail on a desk.",
+                 "prompt": "A neutral editorial paper trail on a desk, no people", "music": "silence"}
+    }
+  ]
+}
