@@ -5,7 +5,7 @@ import unittest
 from pathlib import Path
 
 import pymupdf
-from PIL import Image
+from PIL import Image, ImageDraw
 
 import highlight
 
@@ -54,6 +54,15 @@ class HighlightTests(unittest.TestCase):
             self.assertIsNone(movie)
             with Image.open(still) as image:
                 self.assertEqual(image.size, (1920, 1080))
+
+    def test_crop_edges_snap_outside_text_lines(self):
+        page = Image.new("RGB", (400, 200), "white")
+        drawing = ImageDraw.Draw(page)
+        drawing.rectangle((20, 40, 380, 50), fill="black")
+        drawing.rectangle((20, 80, 380, 90), fill="black")
+        crop = highlight.snap_crop_to_gaps(page, pymupdf.Rect(0, 22, 200, 43))
+        self.assertLess(crop.y0 * highlight.SCALE, 40)
+        self.assertGreater(crop.y1 * highlight.SCALE, 90)
 
     def test_ambiguous_duplicate_fails(self):
         with tempfile.TemporaryDirectory() as directory:

@@ -7,10 +7,10 @@ _Last updated: 2026-09-26_
 ## In progress
 
 - Voice tool owner-voice acceptance: local GPU smoke test passed on the Codex Lenovo Legion RTX 2060 (6 GB) using a synthetic reference. Rerun with Oscar's recording and listen before production use.
-- SEC highlighter: offline PDF/HTML CLI, conservative quote matching, branded PNG, and optional MP4 are implemented on `codex/doc-highlighter`. Live 8-K and DEF 14A examples remain pending Oscar's chosen contact email for `SEC_USER_AGENT`; do not invent or commit an address.
 
 ## Done (newest first; Claude moves these into the queue status in STATE.md)
 
+- 2026-09-26 — Built and live-validated the SEC receipt highlighter on L3Harris's 2026 8-K and McGraw Hill's 2026 DEF 14A. Committed both verified PNG examples and a six-second 8-K MP4 to `codex/doc-highlighter` / PR #3. Contact details remain only in ignored local `.env`.
 - 2026-09-26 — Built the Chatterbox narration CLI, reference selector, Colab/RunPod run paths, and sample script. Five CPU-side tests and a real local GPU render passed; the sample output is 48 kHz mono PCM with a timing manifest. The synthetic-reference sample peaked at 0.999 and measured -18.75 LUFS after peak limiting against a -16 LUFS target.
 - 2026-09-26 — Built the chart/deal-diagram CLI with six types, paper/night themes, six fictional example specs, MP4 and still output, documentation, and tests. Rendered all six MP4s locally at 1920×1080/30 fps (4–6 s); five tests pass.
 - 2026-09-26 — Added the portable Sexy Canvas guide at `MA Channel/methods/sexy-canvas/`; it is internal-only and must never be named or exposed in published channel materials.

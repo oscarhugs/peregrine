@@ -318,6 +318,26 @@ def page_images(page: pymupdf.Page, highlights: list[pymupdf.Rect]) -> tuple[Ima
     return plain, layer, bounds
 
 
+def snap_crop_to_gaps(plain: Image.Image, crop: pymupdf.Rect) -> pymupdf.Rect:
+    """Avoid showing clipped slivers of neighboring lines at crop edges."""
+    x0 = max(0, round(crop.x0 * SCALE))
+    x1 = min(plain.width, round(crop.x1 * SCALE))
+
+    def clear_edge(point: float, direction: int) -> float:
+        target = round(point * SCALE)
+        for distance in range(81):
+            row = target + direction * distance
+            if row < 2 or row + 3 > plain.height:
+                continue
+            strip = plain.crop((x0, row - 2, x1, row + 3)).convert("L")
+            if sum(strip.histogram()[:220]) == 0:
+                return row / SCALE
+        return point
+
+    return pymupdf.Rect(crop.x0, clear_edge(crop.y0, -1), crop.x1,
+                        clear_edge(crop.y1, 1))
+
+
 def background(label: str) -> Image.Image:
     canvas = Image.new("RGB", SIZE, PAPER)
     shadow = Image.new("RGBA", SIZE)
@@ -398,6 +418,7 @@ def render(source: Path, quote: str, output: Path, label: str | None, video: boo
             page = document[match.page]
             crop, highlights = regions(page, units, match)
             plain, layer, bounds = page_images(page, highlights)
+            crop = snap_crop_to_gaps(plain, crop)
             output.parent.mkdir(parents=True, exist_ok=True)
             base = background(label)
             still = compose(plain, layer, crop, bounds, label, DURATION, base)
