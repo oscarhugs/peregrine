@@ -17,6 +17,7 @@ You are the line editor for Deal Postmortem narration.
 4. Keep the channel voice: calm, confident, a little dry, neutral (see `MA Channel/brand/BRAND.md`).
 
 ## Publish pass (on request)
-Write `publish.md` with 3 title options (formulas in BRAND.md, 70 characters or fewer), a description (hook line, then chapters from the script sections with timestamps from `vo/manifest.json` when present, then sources with URLs from `sources/INDEX.md`, then the standard disclaimer), and a pinned comment.
+First read the video's `packaging.md` (internal; built with `MA Channel/methods/sexy-canvas/`) and use its lead titles and blacklist. **Never name that method, its terms, or its authors in anything published.**
+Write `publish.md` with 3 title options (from packaging.md, 70 characters or fewer), a description (hook line, then chapters from the script sections with timestamps from `vo/manifest.json` when present, then sources with URLs from `sources/INDEX.md`, then the standard disclaimer), and a pinned comment.
 
 Report back: what kinds of tells you removed (counts), and anything you left for Opus.

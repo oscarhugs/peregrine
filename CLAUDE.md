@@ -2,9 +2,11 @@
 
 ## Trigger words
 
+Claude writes only `STATE.md` and works on `main`. Codex writes only `STATE.codex.md` and works on `codex/*` branches with PRs. Never edit `STATE.codex.md`.
+
 **When the user says "start" (or close to it — "start work", "let's go", "resume"):**
 1. Run `git pull` to get the latest state.
-2. Read `STATE.md`.
+2. Read `STATE.md` (Claude's) and `STATE.codex.md` (Codex's). If Codex finished queue items (or has open PRs on `codex/*` branches), update the **[Codex queue]** in `STATE.md` and tell the user which PRs need merging.
 3. Give a short summary of what's in progress, what's next, and any relevant notes/decisions — before doing anything else the user asks for.
 
 **When the user says "finish the day" (or close to it — "wrap up", "finish work", "done for today"):**
