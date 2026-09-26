@@ -74,7 +74,7 @@ class AudioTests(unittest.TestCase):
         section = voice.Section(1, "Test", [voice.Paragraph("One. Two.", ["One.", "Two."]),
                                                   voice.Paragraph("Three.", ["Three."])])
         model = FakeModel()
-        args = argparse.Namespace(exaggeration=0.4, cfg_weight=0.5)
+        args = argparse.Namespace(exaggeration=0.4, cfg_weight=0.5, reference=Path("synthetic-reference.wav"))
         with tempfile.TemporaryDirectory() as temp:
             out = Path(temp)
             with patch.object(voice, "CACHE", out / "cache"):
@@ -82,6 +82,8 @@ class AudioTests(unittest.TestCase):
                 self.assertEqual(model.calls, 3)
                 self.assertEqual(manifest["file"], "01_test.wav")
                 self.assertAlmostEqual(manifest["duration"], 3.5, places=2)
+                self.assertAlmostEqual(manifest["actual_lufs"], -16, delta=0.2)
+                self.assertLessEqual(manifest["peak"], 0.999)
                 audio, rate = sf.read(out / "01_test.wav")
                 self.assertEqual(rate, 48000)
                 self.assertEqual(len(audio), round(manifest["duration"] * rate))

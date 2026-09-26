@@ -136,7 +136,7 @@ def render_section(section: Section, model: object, reference_hash: str, args: a
                 if rate != sample_rate:
                     raise ValueError(f"Cache sample-rate mismatch: {cached}")
             else:
-                wav = model.generate(chunk, audio_prompt_path=str(REFERENCE),
+                wav = model.generate(chunk, audio_prompt_path=str(args.reference),
                                      exaggeration=args.exaggeration, cfg_weight=args.cfg_weight)
                 audio = wav.detach().cpu().numpy().squeeze().astype(np.float32)
                 if audio.ndim != 1 or len(audio) == 0:
@@ -160,10 +160,13 @@ def render_section(section: Section, model: object, reference_hash: str, args: a
     if peak > 0.999:
         normalized *= 0.999 / peak
         print(f"Warning: section {section.number} peak limited; loudness may be below -16 LUFS", file=sys.stderr)
+    measured_lufs = float(meter.integrated_loudness(normalized))
     out_file = out_dir / section.filename
     sf.write(out_file, normalized, 48000, subtype="PCM_24")
     return {"section": section.number, "title": section.title, "file": out_file.name,
-            "duration": round(len(normalized) / 48000, 3), "text": section.text, "chunks": chunk_times}
+            "duration": round(len(normalized) / 48000, 3), "actual_lufs": round(measured_lufs, 2),
+            "peak": round(float(np.max(np.abs(normalized))), 4), "text": section.text,
+            "chunks": chunk_times}
 
 
 def main() -> int:
@@ -173,6 +176,7 @@ def main() -> int:
     parser.add_argument("--dry-run", action="store_true", help="Print chunks without importing Chatterbox")
     parser.add_argument("--exaggeration", type=float, default=0.4)
     parser.add_argument("--cfg-weight", type=float, default=0.5)
+    parser.add_argument("--reference", type=Path, default=REFERENCE, help="Voice reference WAV (default: reference/me_ref.wav)")
     args = parser.parse_args()
     if not 0 <= args.exaggeration <= 1 or not 0 <= args.cfg_weight <= 1:
         parser.error("--exaggeration and --cfg-weight must be between 0 and 1")
@@ -195,8 +199,8 @@ def main() -> int:
                     print(f"[{section.number:02d} {section.title}] {chunk}")
     if args.dry_run:
         return 0
-    if not REFERENCE.is_file():
-        parser.error(f"Reference missing: {REFERENCE}; run prepare_reference.py first")
+    if not args.reference.is_file():
+        parser.error(f"Reference missing: {args.reference}; run prepare_reference.py first")
     try:
         import torch
         from chatterbox.tts import ChatterboxTTS
@@ -206,7 +210,7 @@ def main() -> int:
     if device == "cpu":
         print("Warning: CUDA unavailable; Chatterbox CPU rendering will be slow", file=sys.stderr)
     model = ChatterboxTTS.from_pretrained(device=device)
-    reference_hash = hashlib.sha256(REFERENCE.read_bytes()).hexdigest()
+    reference_hash = hashlib.sha256(args.reference.read_bytes()).hexdigest()
     out_dir = args.script.resolve().parent / "vo"
     out_dir.mkdir(parents=True, exist_ok=True)
     manifest_path = out_dir / "manifest.json"
