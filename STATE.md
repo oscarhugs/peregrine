@@ -12,7 +12,7 @@ _Last updated: 2026-09-26_
 - **[Codex queue]** (Claude maintains this list; Codex reports progress in `STATE.codex.md`): do in order, one per session:
   1. ✅ voice tool (merged PR #1, 2026-09-26). Pending: rerun with Oscar's real recording.
   2. ✅ charts tool (merged PR #2, 2026-09-26)
-  3. 🔶 doc_highlighter: done on branch `codex/doc-highlighter` (2 commits, validated on live EDGAR), **not merged yet**
+  3. ✅ doc_highlighter (merged PR #3, 2026-09-26)
   4. `MA Channel/tools/renderer/CODEX_TASK.md`: storyboard.json + vo → rough-cut MP4, SRT, DaVinci FCPXML, assets_todo.md (FFmpeg, laptop-friendly)
 - **Pilot 001 next:** 1) Oscar makes hero images per `videos/001-red-lobster/thumbs/HERO_PROMPTS.md` → Claude renders finals (T2 needs a "RENT DUE" overlay added to make_thumb.py); 2) write end card once ep 002 topic is picked; 3) wait for Codex tools (voice → charts → doc_highlighter → renderer) to render. Oscar: record the voice reference now (voice tool is merged; it runs locally on the Legion's RTX 2060).
 - Codex bug for charts tool: a text field with two `$` signs is parsed as matplotlib mathtext and mangled; `render.py` should escape `$`. Beat 02-02 needs a non-chart visual (no verified stock series).
