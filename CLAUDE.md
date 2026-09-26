@@ -22,3 +22,17 @@
 - At the **start** of any session, read `STATE.md` before doing anything else.
 - At the **end** of any session, or after a meaningful chunk of work, update `STATE.md` the same way as above, and commit/push if there are changes.
 - Keep `STATE.md` short and current — prune stale detail rather than letting it grow forever. It's working memory, not an archive.
+
+## Response style
+
+- Answer first. No preamble, no recap of the question.
+- Number multi-step instructions; cap lists at 5 items.
+- Cut filler and closers ("hope this helps", "let me know").
+- End with one clear next action when something is pending.
+- Longer only when the user asks for detail or the content needs it (research, plans).
+
+## Tools
+
+- Long docs (PDF/Word/HTML filings): convert with `markitdown`, then grep for the needed sections. Don't read whole files.
+- Every script and video description goes through the `humanizer` skill (`.claude/skills/humanizer`) before review.
+- Subagents: Opus orchestrates, Sonnet for reasoning, Haiku for simple fetch/format work.
