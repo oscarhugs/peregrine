@@ -1,0 +1,14 @@
+{
+  "type": "timeline",
+  "theme": "paper",
+  "title": "The deal, in four moves",
+  "source": "Illustrative example (fictional)",
+  "duration": 5,
+  "out": "../out/timeline.mp4",
+  "events": [
+    {"date": "2018", "label": "Offer announced"},
+    {"date": "2019", "label": "Deal closes"},
+    {"date": "2021", "label": "Debt refinanced"},
+    {"date": "2023", "label": "Assets sold"}
+  ]
+}
