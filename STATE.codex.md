@@ -6,7 +6,7 @@ _Last updated: 2026-09-26_
 
 ## In progress
 
-- Voice tool PR #1 is awaiting Oscar's review/merge; production voice acceptance awaits his recording. Charts are complete on `codex/charts-tool` and ready for PR review.
+- Voice tool PR #1 and charts PR #2 await Oscar's review/merge; production voice acceptance also awaits his recording.
 
 ## Done (newest first; Claude moves these into the queue status in STATE.md)
 
