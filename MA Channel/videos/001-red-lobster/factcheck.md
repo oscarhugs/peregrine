@@ -54,3 +54,14 @@
 3. **Line 98 ("about twenty-three million dollars")** — source says $22.9 million (S26). Recommend tightening to "almost twenty-three million dollars" or leave as-is; both are defensible rounding, but confirm this is a deliberate round, not confusion with a different figure.
 4. **Line 72, SOURCE NEEDED (Oct 2014 board replacement)** — confirmed no verified source supports the outcome of the vote. Either cut the line or fetch a post-Oct-10-2014 source (Reuters/WSJ/Darden 8-K) before airing. Do not cite S05 for this — S05 predates the vote.
 5. No defamation issues found: all Thai Union / Paul Kenny claims in §04–§05 are already hedged ("investigating whether," "the filing says," "alleged," "Thai Union has called them meritless") and match source wording.
+
+## Addendum 2026-09-26: cold open rewrite (Opus, checked directly against sources)
+| # | claim | verdict | source | note |
+|---|---|---|---|---|
+| A1 | Shrimp cost $11M | ✅ | S25 l.383 "costing the Debtors $11 million" | verbatim |
+| A2 | 2023 rent bill ~$190M | ✅ | S25 l.370 "approximately $190.5 million in lease obligations" | "rent bill" = lease obligations, all 687 leases (clarified in §06) |
+| A3 | Both figures in the same sworn statement by the restructuring chief | ✅ | S25 (Tibus first-day declaration) | |
+| A4 | "seventeen times bigger" | ✅ (calc) | 190.5 / 11 = 17.3 | |
+| A5 | Before 2014, RL owned much of the real estate it operated on | ✅ | S41 l.7 "sold the real estate Red Lobster owned for $1.5 billion" | softened from "most of the buildings" (unsupported) |
+| A6 | "the company that supplied the shrimp" | ✅ | S25 (Thai Union "large-scale supplier") | replaced "caught" (inaccurate) |
+Previous version saved as `script.v2.md`.
