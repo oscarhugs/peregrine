@@ -31,3 +31,18 @@ Instructions for Codex. This repo is shared between **Codex** and **Claude Code*
 - **Deal Postmortem channel** (`MA Channel/`): Claude owns research, scripts, storyboards, and prompts. Codex owns the code tools under `MA Channel/tools/`. Task briefs are in `MA Channel/tools/*/CODEX_TASK.md`; follow them exactly and read `MA Channel/brand/BRAND.md` for visual rules.
 - Don't edit `MA Channel/RESEARCH.md`, `PLAN.md`, `prompts/`, or `videos/*/script.md` unless the user asks; flag needed changes in `STATE.md` instead.
 - Never commit secrets or voice recordings: `.env`, `MA Channel/tools/voice/reference/`, and generated audio are gitignored and must stay that way.
+
+## Response style
+
+- Answer first. No preamble, no recap of the question.
+- Number multi-step instructions; cap lists at 5 items.
+- Cut filler and closers ("hope this helps", "let me know").
+- End with one clear next action when something is pending.
+- Longer only when the user asks for detail or the content needs it.
+
+## Coding rules
+
+1. **State assumptions.** If the brief is ambiguous, say what you assumed in the PR description; don't silently pick.
+2. **Minimum code.** Solve the brief, nothing speculative. No abstractions for one use. Prefer stdlib and existing code.
+3. **Surgical changes.** Touch only files the task needs. No drive-by refactors or reformatting.
+4. **Verify explicitly.** Run it, and list in the PR what you ran and what it output.

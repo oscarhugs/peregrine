@@ -1,2 +1,3 @@
 yt-dlp>=2026.8
 pillow>=10
+markitdown[pdf,docx,xlsx]>=0.1
