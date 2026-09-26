@@ -18,6 +18,7 @@ _Last updated: 2026-09-26_
 
 ## Recently done
 
+- 2026-09-26 — [Codex] Added reproducible Python requirements for the chart and document tools plus pinned GPU-only Chatterbox voice requirements; local `MA Channel/.venv` is gitignored.
 - 2026-09-25 — MA Channel: pulled YouTube data for 15 benchmark channels + 12 M&A/PE searches (yt-dlp), thumbnail analysis, wrote research + execution plan.
 - 2026-09-25 — Deal Postmortem decisions: independent brand, own voice via Chatterbox (MIT; XTTS/F5 are non-commercial), neutral stance, name Deal Postmortem.
 - 2026-09-25 — ZoomInfo scraper: full 606-contact list captured with full emails (486 leads); OCR pipelines for older screenshot batches finished. Details in `Zoominfo Scraper/STATE.md`.
@@ -29,4 +30,5 @@ _Last updated: 2026-09-26_
 - MA Channel split: Claude = ideas/research/script/storyboard/thumbnail concepts; Codex = code (trend miner, renderer, charts, SEC doc highlighter). 1 high-quality video/week max (YouTube inauthentic-content policy).
 - Codex works in this repo too (cloud or a clone on the other computer). It follows `AGENTS.md`, which mirrors the `CLAUDE.md` protocol; its STATE entries are prefixed `[Codex]`. Always `git pull` before starting.
 - Tooling decisions (2026-09-26): installed MarkItDown (docs→markdown, used with targeted search) and the `humanizer` skill (`.claude/skills/humanizer`, blader/humanizer MIT); run it on every script and description before review. Ponytail goes in Codex only. Skipped: caveman, Jev/Laya, claude-mem, taste-skill/impeccable/awesome-design-md (web UI design; `brand/BRAND.md` covers our design system). Task Observer: revisit after the pilot.
+- SEC highlighter: use the existing browser for HTML rendering and visual QA; do not add Playwright or download a second Chromium runtime.
 - User's laptop: no NVIDIA GPU (Intel UHD 620, 8 GB RAM), so GPU work (voice, local models) runs on RunPod/Colab.
