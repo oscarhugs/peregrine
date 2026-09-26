@@ -1,6 +1,6 @@
 # STATE
 
-_Last updated: 2026-09-25_
+_Last updated: 2026-09-26_
 
 ## In progress
 
@@ -8,6 +8,11 @@ _Last updated: 2026-09-25_
 
 ## Next up
 
+- **[Codex queue]**: do in order, one per session; tick off here when merged:
+  1. `MA Channel/tools/voice/CODEX_TASK.md`: own-voice narration tool (Chatterbox, runs on Colab/RunPod)
+  2. `MA Channel/tools/charts/CODEX_TASK.md`: animated branded charts/deal diagrams
+  3. `MA Channel/tools/doc_highlighter/CODEX_TASK.md`: SEC filing highlighter (needs `SEC_USER_AGENT` in `MA Channel/.env`)
+  4. (later) video assembler: brief comes after Claude defines the storyboard format in Week 2
 - Deal Postmortem Week 2: pilot video #1 end-to-end. Pick from PLAN.md ideas #1–3 (JAB 'secretly owns your breakfast', Red Lobster sale-leaseback, HP–Autonomy). Claude writes prompts/ templates + dossier → script → storyboard.
 - ZoomInfo lead work: see `Zoominfo Scraper/STATE.md` (own repo, own state file).
 
