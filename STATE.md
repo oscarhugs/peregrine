@@ -10,11 +10,11 @@ _Last updated: 2026-09-26_
 ## Next up
 
 - **[Codex queue]** (Claude maintains this list; Codex reports progress in `STATE.codex.md`): do in order, one per session:
-  1. `MA Channel/tools/voice/CODEX_TASK.md`: own-voice narration tool (Chatterbox, runs on Colab/RunPod)
-  2. `MA Channel/tools/charts/CODEX_TASK.md`: animated branded charts/deal diagrams
-  3. `MA Channel/tools/doc_highlighter/CODEX_TASK.md`: SEC filing highlighter (needs `SEC_USER_AGENT` in `MA Channel/.env`)
+  1. ✅ voice tool (merged PR #1, 2026-09-26). Pending: rerun with Oscar's real recording.
+  2. ✅ charts tool (merged PR #2, 2026-09-26)
+  3. 🔶 doc_highlighter: done on branch `codex/doc-highlighter` (2 commits, validated on live EDGAR), **not merged yet**
   4. `MA Channel/tools/renderer/CODEX_TASK.md`: storyboard.json + vo → rough-cut MP4, SRT, DaVinci FCPXML, assets_todo.md (FFmpeg, laptop-friendly)
-- **Pilot 001 next:** 1) Oscar makes hero images per `videos/001-red-lobster/thumbs/HERO_PROMPTS.md` → Claude renders finals (T2 needs a "RENT DUE" overlay added to make_thumb.py); 2) write end card once ep 002 topic is picked; 3) wait for Codex tools (voice → charts → doc_highlighter → renderer) to render. Oscar: record voice reference once the voice tool lands.
+- **Pilot 001 next:** 1) Oscar makes hero images per `videos/001-red-lobster/thumbs/HERO_PROMPTS.md` → Claude renders finals (T2 needs a "RENT DUE" overlay added to make_thumb.py); 2) write end card once ep 002 topic is picked; 3) wait for Codex tools (voice → charts → doc_highlighter → renderer) to render. Oscar: record the voice reference now (voice tool is merged; it runs locally on the Legion's RTX 2060).
 - Need from Oscar: email for SEC_USER_AGENT (in `MA Channel/.env`) to fetch the 2014 Darden/ARCP 8-Ks and confirm the $2.1B / $1.5B figures (currently sourced to the Starboard proxy).
 - ZoomInfo lead work: see `Zoominfo Scraper/STATE.md` (own repo, own state file).
 
