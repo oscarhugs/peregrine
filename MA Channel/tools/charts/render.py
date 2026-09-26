@@ -181,7 +181,8 @@ def money_color(spec: dict, foreground: str) -> str:
 
 def label(ax, x: float, y: float, value: str, *, color: str, size=21, weight=False,
           align="center", vertical="center", alpha=1.0, family=None) -> None:
-    ax.text(x, y, value, color=color, fontsize=size, fontproperties=family or (BOLD if weight else LABEL),
+    ax.text(x, y, value.replace("$", r"\$"), color=color, fontsize=size,
+            fontproperties=family or (BOLD if weight else LABEL),
             ha=align, va=vertical, alpha=alpha, linespacing=1.2)
 
 
