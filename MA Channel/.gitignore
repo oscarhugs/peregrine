@@ -3,6 +3,7 @@
 tools/voice/reference/
 tools/voice/out/
 tools/charts/out/
+tools/doc_highlighter/out/
 videos/*/vo/
 videos/*/assets/raw/
 __pycache__/
