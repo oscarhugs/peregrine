@@ -8,7 +8,7 @@ Read `RESEARCH.md` first. This file is the plan to execute.
 
 - **Edge vs. competitors:** we read the primary documents (merger proxies, 10-Ks, bankruptcy filings) and explain deal mechanics (LBO debt, sale-leasebacks, dividend recaps, write-downs) that general channels skip. Real analysis is also what keeps us safe under YouTube's inauthentic-content rules.
 - **Tone:** premium editorial rather than clickbait-rage. We are not anti-PE activists; we explain how deals work, both the disasters and the genius moves. Advisors, founders, and finance professionals are high-RPM viewers.
-- **Working names** (check handle availability): *Deal Autopsy*, *The Buyout*, *Closing Table*, *Hostile*, *Term Sheet*.
+- **Working names** (check handle availability): see §8.
 - **Format:** 1 flagship documentary per week (18–30 min), plus 2–3 Shorts cut from each.
 
 ## 2. Content pillars (the "new ideas" engine)
@@ -56,7 +56,7 @@ The winning formula from the research: **familiar brand + hidden buyer/villain +
 | 3 | **Research dossier** | `dossier.md`: timeline, deal terms, financials, quotes, **every claim with a source URL** | **Claude** (web search + SEC EDGAR via EdgarTools) | Long-document reading (proxies, 10-Ks) and synthesis are Claude's strength |
 | 4 | **Script** | 3,000–4,500 words, beat-by-beat, with a cited fact table | **Claude** writes · **human** approves | Long-form narrative voice and pacing; human pass adds the insider take |
 | 5 | **Storyboard** | `storyboard.json`: one row per 5–10 s beat (VO line, visual type, prompt/search term, on-screen text, source) | **Claude** | Turning narrative into shot lists is a reasoning task |
-| 6a | **Voiceover** | WAV per section | ElevenLabs API (one consistent licensed stock voice, or clone *your own* voice) | ~$0.10 per 1K chars ≈ $3–5/video |
+| 6a | **Voiceover** | WAV per section | **Chatterbox** (open source, MIT) cloned from your own voice, run locally | $0; needs a GPU (or a rented GPU at ~$0.50/h) |
 | 6b | **AI images / b-roll** | stills + 3–6 s motion clips | Image model (OpenAI gpt-image via Codex, Midjourney, or Flux) + Veo/Kling for motion | Claude doesn't generate images; Codex/OpenAI tooling does |
 | 6c | **Charts, maps, deal diagrams** | animated charts (stock price, debt load, deal structure) | **Codex** builds a Remotion/matplotlib template library | Code-generated visuals are reusable, and this is our signature look |
 | 6d | **Document shots** | highlighted screenshots of real SEC filings/headlines | **Codex** script (render PDF/HTML filing → crop → yellow highlight) | Signature visual: "the receipts" |
@@ -89,22 +89,26 @@ The winning formula from the research: **familiar brand + hidden buyer/villain +
 ## 6. Costs (per month, 4 videos)
 | Item | Est. |
 |---|---|
-| ElevenLabs (Creator/Pro) | $22–99 |
+| Voice (local Chatterbox) | $0 (optional rented GPU ~$5–10) |
 | AI video (Veo 3.1 Lite ~$0.05/s; ~2 min of motion per video) | ~$25–50 |
 | Image generation | $10–30 |
 | Stock footage + music (Storyblocks, Epidemic) | ~$45 |
 | Claude + Codex | existing subscriptions |
-| **Total** | **~$100–225/mo** |
+| **Total** | **~$80–135/mo** |
 
 Revenue illustration: 500K monthly views × ~$10 RPM ≈ $5K/mo in AdSense plus sponsors. Expect 3–9 months before monetization; not guaranteed.
 
 ## 7. Execution roadmap
 
 ### Week 1 — Foundation
-- [ ] Pick channel name, check handles, create channel + brand kit (logo, palette, fonts, 2 thumbnail templates). *(Claude: name/brand options; you: create accounts)*
-- [ ] Set up the repo structure below. *(Codex)*
-- [ ] Build the trend miner with weekly outlier reports. *(Codex)*
-- [ ] Sign up: ElevenLabs, image model, Veo/Kling access, Storyblocks. *(you; do not share keys in chat, put them in a local `.env`)*
+- [x] Channel name: **Deal Postmortem** (@DealPostmortem).
+- [x] Brand kit: `brand/BRAND.md`, logo/avatar/banner/watermark, thumbnail templates A & B (`tools/thumbnails/`).
+- [x] Repo structure.
+- [x] Trend miner (`tools/trend_miner/`). First report: `research/trends/2026-09-25.md`. Built by Claude since it was 80% done during research.
+- [x] Voice tool brief for Codex (`tools/voice/CODEX_TASK.md`). Laptop has no NVIDIA GPU → runs on RunPod/Colab.
+- [ ] **You:** everything in `CHANNEL_SETUP.md` (create channel, upload branding, tool accounts, record 3–5 min voice reference).
+- [ ] **Codex:** build `tools/voice/` from `CODEX_TASK.md`.
+- [ ] Optional: install brand fonts into `brand/fonts/` and re-run `brand/make_logo.py`.
 
 ### Week 2 — Pilot video #1 end-to-end (manual-heavy on purpose)
 - [ ] Pick from ideas #1–3. Claude builds the dossier → script → storyboard.
@@ -121,7 +125,7 @@ Revenue illustration: 500K monthly views × ~$10 RPM ≈ $5K/mo in AdSense plus 
 - [ ] 1 flagship/week + Shorts. Weekly analytics review (CTR target > 5%, 30-s retention > 70%).
 - [ ] Double down on whichever pillar wins; kill the ones that underperform.
 
-### Repo structure (to create)
+### Repo structure
 ```
 MA Channel/
   RESEARCH.md  PLAN.md
@@ -137,8 +141,12 @@ MA Channel/
       dossier.md  script.md  storyboard.json  vo/  assets/  thumbs/  final/
 ```
 
-## 8. Decisions needed from you
-1. Should the channel be **branded as Peregrine** (lead-gen and credibility, but reputational exposure) or **independent**?
-2. Voice: licensed stock AI voice, or clone your own voice (no disclosure needed, and more "authentic")?
-3. Editorial stance on PE: neutral explainer (recommended for an advisory firm) or critical?
-4. Channel name from the shortlist (or your own).
+## 8. Decisions (locked 2026-09-25)
+1. **Independent** brand (not Peregrine-branded).
+2. **Voice: clone the user's own voice with an open-source model** (no YouTube disclosure needed for your own voice). The license must allow commercial use:
+   - **Chatterbox** (Resemble AI, MIT): zero-shot cloning from ~5–10 s of audio, emotion control. **Primary pick.**
+   - **OpenVoice V2** (MIT): fallback.
+   - **Avoid for a monetized channel:** XTTS-v2 (CPML, non-commercial, and Coqui has shut down so no license is available) and F5-TTS (weights CC-BY-NC).
+   - Codex task: wrap Chatterbox in a local script `tools/voice/` (script section → WAV, chunked, loudness-normalized). Record 2–5 min of clean reference audio.
+3. **Neutral** explainer stance on PE and dealmakers.
+4. Channel name: pending user pick from the shortlist below. Handles returned 404 (likely free) on 2026-09-25: @TermSheet, @DueDiligence, @TheTakeover, @DealPostmortem, @WhoBoughtIt, @PaperLBO. Taken: DealAutopsy, TheBuyout, ClosingTable, TheDealRoom, BuyoutFiles, ExitMultiple, PremiumPaid.

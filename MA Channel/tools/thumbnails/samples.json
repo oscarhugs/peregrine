@@ -1,0 +1,4 @@
+[
+  {"template": "A", "text": "They Sold The Building", "underline": "Sold", "hero": "tools/thumbnails/sample_hero_plate.png", "out": "tools/thumbnails/samples/A_editorial.jpg"},
+  {"template": "B", "text": "Worth Almost Nothing", "figure": "$11B", "hero": "tools/thumbnails/sample_hero_logo.png", "out": "tools/thumbnails/samples/B_collapse.jpg"}
+]

@@ -1,0 +1,20 @@
+{
+  "uploads_per_channel": 60,
+  "results_per_query": 40,
+  "min_duration_sec": 240,
+  "outlier_threshold": 3.0,
+  "channels": [
+    "MagnatesMedia", "companyman114", "ModernMBA", "ColdFusion", "wallstreetmillennial",
+    "LogicallyAnswered", "HowMoneyWorks", "BusinessCasual", "Newsthink", "EconomicsExplained",
+    "PolyMatter", "FINAiUS", "HamishHodder", "WendoverProductions", "MorePerfectUnion", "Atrioc"
+  ],
+  "queries": [
+    "private equity bought", "worst acquisition in history", "merger disaster", "hostile takeover",
+    "leveraged buyout", "who owns", "secret company owns", "billion dollar write down",
+    "rise and fall of", "what happened to", "private equity rollup", "bankruptcy explained"
+  ],
+  "ma_keywords": [
+    "acqui", "merger", "buyout", "bought", "private equity", "takeover", "owns", "sold",
+    "deal", "billion", "bankrupt", "collapse", "lbo", "hedge fund", "investor", "debt"
+  ]
+}

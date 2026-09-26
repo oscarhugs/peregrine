@@ -1,0 +1,6 @@
+.env
+tools/voice/reference/
+tools/voice/out/
+videos/*/vo/
+videos/*/assets/raw/
+__pycache__/
