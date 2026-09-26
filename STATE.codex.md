@@ -7,6 +7,7 @@ _Last updated: 2026-09-26_
 ## In progress
 
 - Voice tool owner-voice acceptance: local GPU smoke test passed on the Codex Lenovo Legion RTX 2060 (6 GB) using a synthetic reference. Rerun with Oscar's recording and listen before production use.
+- SEC highlighter: offline PDF/HTML CLI, conservative quote matching, branded PNG, and optional MP4 are implemented on `codex/doc-highlighter`. Live 8-K and DEF 14A examples remain pending Oscar's chosen contact email for `SEC_USER_AGENT`; do not invent or commit an address.
 
 ## Done (newest first; Claude moves these into the queue status in STATE.md)
 
@@ -20,5 +21,6 @@ _Last updated: 2026-09-26_
 - Voice: `chatterbox-tts==0.1.7` requires `torch==2.6.0` and `torchaudio==2.6.0`. This install also needs `setuptools<81` for Perth's `pkg_resources` import. The script parser removes `[S25]`-style source IDs from the current pilot.
 - Hardware correction: Oscar uses two laptops. This Codex Lenovo Legion has an RTX 2060; the separate Claude laptop has no NVIDIA GPU. Local GPU testing is possible here.
 - SEC highlighter: use the existing browser for HTML rendering and visual QA; do not add Playwright or download a second Chromium runtime.
+- SEC highlighter: installed Chrome prints local HTML with network resources blocked; SEC requests use a declared User-Agent, SEC-only redirects, and a local cross-process rate cap. Fuzzy passages are suggestions only; automatic highlights require normalized exact words and numeric values.
 - Charts: example figures are fictional and labeled as such; replace values and source before publication. Optional brand fonts are absent locally, so the tested renders use Windows fallbacks.
 - Resource preference: Oscar does not want full CPU saturation. Keep renders sequential and limit encoder threads (charts FFmpeg defaults to one); use low process priority for longer local jobs.
