@@ -29,6 +29,8 @@ _Last updated: 2026-09-26_
 
 ## Notes/decisions
 
+- Pilot 001 length locked at ~14 min (the ~22 min target was dropped). The Oct 2014 board-vote claim is sourced to S55 (factcheck row 19 ✅). Thumbnail heroes: AI only for generic objects and buildings; real-brand exteriors come from CC-licensed photos with credit.
+
 - Repo contains `Website Scrapes/`, `Zoominfo Scraper/` (gitignored here; it has its own repo at github.com/oscarhugs/zoominfo-scraper), and `screenshot-to-code/` (has its own `CLAUDE.md`).
 - MA Channel split: Claude = ideas/research/script/storyboard/thumbnail concepts; Codex = code (trend miner, renderer, charts, SEC doc highlighter). 1 high-quality video/week max (YouTube inauthentic-content policy).
 - Codex works in this repo too (cloud or a clone on the other computer). It follows `AGENTS.md`. **State is split to avoid merge conflicts:** Claude writes only `STATE.md`, Codex writes only `STATE.codex.md`; both read both on start. Codex works on `codex/<task>` branches → PR → Oscar merges. Claude works on `main`.
