@@ -3,5 +3,7 @@ Zoominfo Scraper/
 *.csv
 screenshots/
 .env
+.venv/
+MA Channel/.venv/
 screenshot-to-code/
 Website Scrapes/

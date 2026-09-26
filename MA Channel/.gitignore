@@ -1,4 +1,5 @@
 .env
+.venv/
 tools/voice/reference/
 tools/voice/out/
 videos/*/vo/
