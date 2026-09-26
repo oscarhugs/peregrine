@@ -1,11 +1,40 @@
 [
-  {"template": "B", "figure_prev": "$11M", "figure": "$190M", "arrow": "up", "text": "Wrong Culprit",
-   "hero": "videos/001-red-lobster/thumbs/raw/T1_hero.png", "hero_side": "right",
-   "out": "videos/001-red-lobster/thumbs/T1_wrong_culprit.jpg"},
-  {"template": "A", "text": "It Wasn't the Shrimp", "underline": "Shrimp",
-   "hero": "videos/001-red-lobster/thumbs/raw/T2_hero.png", "hero_side": "right",
-   "out": "videos/001-red-lobster/thumbs/T2_not_the_shrimp.jpg"},
-  {"template": "A", "text": "They Sold the Building", "underline": "Sold",
-   "hero": "videos/001-red-lobster/thumbs/raw/T3_hero.png", "hero_side": "right",
-   "out": "videos/001-red-lobster/thumbs/T3_sold_the_building.jpg"}
+  {
+    "template": "B",
+    "figure_prev": "$11M",
+    "figure": "$190M",
+    "arrow": "up",
+    "text": "Wrong Culprit",
+    "hero": "videos/001-red-lobster/thumbs/raw/T1_hero.png",
+    "hero_side": "right",
+    "out": "videos/001-red-lobster/thumbs/T1_wrong_culprit.jpg"
+  },
+  {
+    "template": "A",
+    "text": "It Wasn't the Shrimp",
+    "underline": "Shrimp",
+    "hero": "videos/001-red-lobster/thumbs/raw/T2_hero.png",
+    "hero_side": "right",
+    "out": "videos/001-red-lobster/thumbs/T2_not_the_shrimp.jpg",
+    "hero_crop": [
+      900,
+      150,
+      1940,
+      1020
+    ],
+    "note": {
+      "text": "Rent Due",
+      "x": 0.42,
+      "y": 0.72,
+      "w": 0.3
+    }
+  },
+  {
+    "template": "A",
+    "text": "They Sold the Building",
+    "underline": "Sold",
+    "hero": "videos/001-red-lobster/thumbs/raw/T3_hero.png",
+    "hero_side": "right",
+    "out": "videos/001-red-lobster/thumbs/T3_sold_the_building.jpg"
+  }
 ]

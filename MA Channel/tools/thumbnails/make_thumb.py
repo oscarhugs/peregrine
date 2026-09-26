@@ -15,6 +15,9 @@ Spec fields:
     arrow:    "down" | "up" | "none"         (B only, default "down")
     hero:     path to a PNG/JPG (transparent PNG cut-outs look best); optional
     hero_side: "right" | "left"              (default right)
+    hero_crop: [x0, y0, x1, y1]              (optional, pixels in the source image)
+    note:     {"text": "RENT DUE", "x": 0.4, "y": 0.7, "w": 0.3}   (optional paper notice taped on the hero;
+              x/y = center, w = width, all relative to the cropped hero)
     out:      output path
 """
 import json
@@ -56,10 +59,36 @@ def paper_texture():
     return Image.blend(img, Image.merge("RGB", (noise,) * 3), 0.06)
 
 
-def place_hero(canvas, hero_path, side, max_w, max_h):
+def taped_note(hero, note):
+    w = int(hero.width * note.get("w", 0.3))
+    h = int(w * 0.62)
+    sheet = Image.new("RGBA", (w, h), (248, 246, 240, 255))
+    d = ImageDraw.Draw(sheet)
+    d.rectangle([0, 0, w - 1, h - 1], outline=(200, 195, 185), width=2)
+    fnt, lines, size = fit_text(d, note["text"].upper(), "condensed", int(w * 0.82), int(h * 0.75), start=int(h * 0.6), min_size=10)
+    y = (h - len(lines) * size * 1.05) / 2
+    for line in lines:
+        d.text(((w - d.textlength(line, font=fnt)) / 2, y), line, font=fnt, fill=RED)
+        y += size * 1.05
+    tape = Image.new("RGBA", (int(w * 0.35), int(h * 0.16)), (235, 225, 190, 190))
+    sheet.alpha_composite(tape, (int(w * 0.325), 0))
+    sheet = sheet.rotate(-4, expand=True, resample=Image.BICUBIC)
+    x = int(hero.width * note.get("x", 0.5) - sheet.width / 2)
+    y = int(hero.height * note.get("y", 0.5) - sheet.height / 2)
+    shadow = Image.new("RGBA", sheet.size, (0, 0, 0, 0))
+    shadow.putalpha(sheet.getchannel("A").point(lambda a: int(a * 0.4)))
+    hero.alpha_composite(shadow.filter(ImageFilter.GaussianBlur(6)), (x + 6, y + 8))
+    hero.alpha_composite(sheet, (x, y))
+
+
+def place_hero(canvas, hero_path, side, max_w, max_h, crop=None, note=None):
     if not hero_path:
-        return
+        return 0
     hero = Image.open(hero_path).convert("RGBA")
+    if crop:
+        hero = hero.crop(tuple(crop))
+    if note:
+        taped_note(hero, note)
     hero.thumbnail((max_w, max_h), Image.LANCZOS)
     x = W - hero.width - 40 if side == "right" else 40
     y = (H - hero.height) // 2
@@ -67,6 +96,7 @@ def place_hero(canvas, hero_path, side, max_w, max_h):
     shadow.putalpha(hero.getchannel("A").point(lambda a: int(a * 0.35)))
     canvas.paste(shadow.filter(ImageFilter.GaussianBlur(14)), (x + 12, y + 16), shadow.filter(ImageFilter.GaussianBlur(14)))
     canvas.paste(hero, (x, y), hero)
+    return hero.width
 
 
 def wrap(draw, text, fnt, max_w):
@@ -103,10 +133,11 @@ def hand_underline(draw, x0, x1, y, width=12):
 def template_a(spec):
     img = paper_texture().convert("RGBA")
     side = spec.get("hero_side", "right")
-    place_hero(img, spec.get("hero"), side, 640, 620)
+    hero_w = place_hero(img, spec.get("hero"), side, 640, 620, spec.get("hero_crop"), spec.get("note"))
     d = ImageDraw.Draw(img)
-    text_x = 70 if side == "right" else W - 650
-    fnt, lines, size = fit_text(d, spec["text"], "serif", 580, 520)
+    text_w = min(580, W - hero_w - 40 - 70 - 30)
+    text_x = 70 if side == "right" else W - 70 - text_w
+    fnt, lines, size = fit_text(d, spec["text"], "serif", text_w, 520)
     y = (H - len(lines) * size * 1.05) / 2
     target = (spec.get("underline") or "").lower()
     for line in lines:
@@ -140,7 +171,7 @@ def template_b(spec):
     ImageDraw.Draw(glow).ellipse([W * 0.45, -200, W + 300, H + 200], fill=(120, 10, 20, 150))
     img = Image.alpha_composite(img, glow.filter(ImageFilter.GaussianBlur(120)))
     side = spec.get("hero_side", "right")
-    place_hero(img, spec.get("hero"), side, 620, 640)
+    place_hero(img, spec.get("hero"), side, 620, 640, spec.get("hero_crop"), spec.get("note"))
     d = ImageDraw.Draw(img)
     text_x = 60 if side == "right" else W - 660
     top = 70
