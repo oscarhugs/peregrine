@@ -55,6 +55,20 @@ class ChartTests(unittest.TestCase):
             with Image.open(result) as image:
                 self.assertEqual(image.size, (1920, 1080))
 
+    def test_dollar_signs_remain_literal_in_chart_text(self):
+        spec = json.loads((EXAMPLES / "number_counter.json").read_text(encoding="utf-8"))
+        spec["title"] = "From $100M to under $30M"
+        spec["caption"] = "$100M versus $30M"
+        fig, ax = render.plt.subplots()
+        try:
+            render.draw(ax, spec, 1.0)
+            fig.canvas.draw()
+            labels = [item.get_text() for item in ax.texts]
+            self.assertIn(r"From \$100M to under \$30M", labels)
+            self.assertIn(r"\$100M versus \$30M", labels)
+        finally:
+            render.plt.close(fig)
+
 
 if __name__ == "__main__":
     unittest.main()
