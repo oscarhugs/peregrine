@@ -379,7 +379,7 @@ def render(path: Path, still: bool) -> Path:
             movie = FuncAnimation(fig, update, frames=frames, interval=1000 / FPS,
                                   repeat=False)
             movie.save(target, writer=FFMpegWriter(fps=FPS, codec="libx264",
-                       extra_args=["-pix_fmt", "yuv420p", "-crf", "20"]), dpi=DPI)
+                       extra_args=["-pix_fmt", "yuv420p", "-crf", "20", "-threads", "1"]), dpi=DPI)
     finally:
         plt.close(fig)
     return target

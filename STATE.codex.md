@@ -18,3 +18,4 @@ _Last updated: 2026-09-26_
 
 - SEC highlighter: use the existing browser for HTML rendering and visual QA; do not add Playwright or download a second Chromium runtime.
 - Charts: example figures are fictional and labeled as such; replace values and source before publication. Optional brand fonts are absent locally, so the tested renders use Windows fallbacks.
+- Resource preference: Oscar does not want full CPU saturation. Keep renders sequential and limit encoder threads (charts FFmpeg defaults to one); use low process priority for longer local jobs.

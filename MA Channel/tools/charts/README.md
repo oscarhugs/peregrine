@@ -7,7 +7,7 @@ python tools/charts/render.py tools/charts/examples/*.json
 python tools/charts/render.py tools/charts/examples/deal_flow.json --still
 ```
 
-The CLI expands globs on Windows. Each spec needs `type`, `title`, `source`, and `out`; `theme` is `paper` (default) or `night`, and `duration` is 4–10 seconds (default 5). `out` is an `.mp4` path relative to the spec file; `--still` writes a same-name `.png` at the final frame. Video is H.264 MP4, 1920×1080, 30 fps, with ease-out-cubic reveals and a 1.5-second final hold. The source line is always bottom-left. Examples use fictional data and say so; replace both numbers and source before publication.
+The CLI expands globs on Windows and renders specs one at a time; FFmpeg encoding is capped at one thread to keep CPU use modest. Each spec needs `type`, `title`, `source`, and `out`; `theme` is `paper` (default) or `night`, and `duration` is 4–10 seconds (default 5). `out` is an `.mp4` path relative to the spec file; `--still` writes a same-name `.png` at the final frame. Video is H.264 MP4, 1920×1080, 30 fps, with ease-out-cubic reveals and a 1.5-second final hold. The source line is always bottom-left. Examples use fictional data and say so; replace both numbers and source before publication.
 
 | `type` | Additional fields |
 |---|---|
