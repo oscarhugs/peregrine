@@ -22,4 +22,5 @@ _Last updated: 2026-09-25_
 
 - Repo contains `Website Scrapes/`, `Zoominfo Scraper/` (gitignored here; it has its own repo at github.com/oscarhugs/zoominfo-scraper), and `screenshot-to-code/` (has its own `CLAUDE.md`).
 - MA Channel split: Claude = ideas/research/script/storyboard/thumbnail concepts; Codex = code (trend miner, renderer, charts, SEC doc highlighter). 1 high-quality video/week max (YouTube inauthentic-content policy).
+- Codex works in this repo too (cloud or a clone on the other computer). It follows `AGENTS.md`, which mirrors the `CLAUDE.md` protocol; its STATE entries are prefixed `[Codex]`. Always `git pull` before starting.
 - User's laptop: no NVIDIA GPU (Intel UHD 620, 8 GB RAM), so GPU work (voice, local models) runs on RunPod/Colab.
