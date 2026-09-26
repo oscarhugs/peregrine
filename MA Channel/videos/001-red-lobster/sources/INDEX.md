@@ -32,3 +32,21 @@
 - **Unverified summaries, leads only, DO NOT CITE:** S42, S43, S45–S54.
 - **Deleted:** S01–S04, S06–S08 (SEC blocked the downloads; the fetcher wrote them from memory). To re-fetch once SEC_USER_AGENT has a real contact email: Darden 8-Ks 2014-05-16 (0000940944-14-000032), 2014-05-21 (-000034), 2014-07-28 (-000075), 8-K/A 2014-08-01 (-000093); ARCP 8-K EX-99.1 2014-05-16 (0001144204-14-031498) and 2014-07-28 (0001144204-14-045191).
 | S55 | news | Activist investor wins all 12 board seats on Olive Garden's Darden | Fortune | 2014-10-10 | https://fortune.com/2014/10/10/starboard-olive-garden-board/ | S55-fortune-starboard-wins-board.md |
+
+## 2014 SEC filings (fetched 2026-09-26 with SEC_USER_AGENT; raw in raw/, verified by Opus)
+Verified verbatim, citable: S60–S65 (+b exhibits). Key lines: S60b "$2.1 billion in cash" and "net cash proceeds ... approximately $1.6 billion"; S64b "approximate $1.5 billion sale-leaseback transaction for over 500 Red Lobster restaurant properties"; S62b deal completed "for approximately $2.1 billion in cash".
+
+| ID | Type | Title | Publisher | Date | URL | File |
+|---|---|---|---|---|---|---|
+| S60 | SEC 8-K | Darden 8-K: agreement to sell Red Lobster | Darden Restaurants | 2014-05-16 | https://www.sec.gov/Archives/edgar/data/940944/000094094414000032/ | S60-darden-8k.md |
+| S60b | SEC EX-99.1 | Press release: Darden to sell Red Lobster to Golden Gate Capital for $2.1B | Darden Restaurants | 2014-05-16 | https://www.sec.gov/Archives/edgar/data/940944/000094094414000032/ex991pressrelease.htm | S60b-darden-press.md |
+| S61 | SEC 8-K | Darden 8-K: Asset and Stock Purchase Agreement | Darden Restaurants | 2014-05-15 | https://www.sec.gov/Archives/edgar/data/940944/000094094414000034/ | S61-darden-8k.md |
+| S61b | SEC EX-2.1 | Red Lobster Asset and Stock Purchase Agreement | Darden Restaurants | 2014-05-15 | https://www.sec.gov/Archives/edgar/data/940944/000094094414000034/redlobsterassetandstockpur.htm | S61b-darden-agree.md |
+| S62 | SEC 8-K | Darden 8-K: completion of Red Lobster sale | Darden Restaurants | 2014-07-28 | https://www.sec.gov/Archives/edgar/data/940944/000094094414000075/ | S62-darden-8k.md |
+| S62b | SEC EX-99.1 | Joint press release: sale closed | Darden / Golden Gate | 2014-07-28 | https://www.sec.gov/Archives/edgar/data/940944/000094094414000075/redlobsterjointcloserelease.htm | S62b-darden-press.md |
+| S63 | SEC 8-K/A | Darden 8-K/A: pro forma financials | Darden Restaurants | 2014-07-28 | https://www.sec.gov/Archives/edgar/data/940944/000094094414000093/ | S63-darden-8ka.md |
+| S63b | SEC EX-99.2 | Pro forma financial statements | Darden Restaurants | 2014-07-28 | https://www.sec.gov/Archives/edgar/data/940944/000094094414000093/dri-proformafs.htm | S63b-darden-proforma.md |
+| S64 | SEC 8-K | ARCP 8-K: Red Lobster sale-leaseback | American Realty Capital Properties | 2014-05-16 | https://www.sec.gov/Archives/edgar/data/1507385/000114420414031498/ | S64-arcp-8k.md |
+| S64b | SEC EX-99.1 | Press release: ~$1.5B sale-leaseback, 500+ properties | ARCP | 2014-05-16 | https://www.sec.gov/Archives/edgar/data/1507385/000114420414031498/v378904_ex99-1.htm | S64b-arcp-press.md |
+| S65 | SEC 8-K | ARCP 8-K: sale-leaseback completed | ARCP | 2014-07-28 | https://www.sec.gov/Archives/edgar/data/1507385/000114420414045191/ | S65-arcp-8k.md |
+| S65b | SEC EX-99.1 | Press release: sale-leaseback closed | ARCP | 2014-07-28 | https://www.sec.gov/Archives/edgar/data/1507385/000114420414045191/v384881_ex99-1.htm | S65b-arcp-press.md |

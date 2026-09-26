@@ -23,6 +23,8 @@ Everyone blamed a twenty-dollar shrimp promotion for Red Lobster's 2024 bankrupt
 13:32 The Lesson
 
 Sources:
+- Darden to sell Red Lobster to Golden Gate Capital (8-K, EX-99.1), SEC EDGAR (2014-05-16) — https://www.sec.gov/Archives/edgar/data/940944/000094094414000032/ex991pressrelease.htm
+- ARCP ~$1.5 billion Red Lobster sale-leaseback (8-K, EX-99.1), SEC EDGAR (2014-05-16) — https://www.sec.gov/Archives/edgar/data/1507385/000114420414031498/v378904_ex99-1.htm
 - Starboard Value Definitive Proxy Statement vs Darden, SEC EDGAR (2014-08-25) — https://www.sec.gov/Archives/edgar/data/940944/000092189514001955/defc14a06297125_08252014.htm
 - Red Lobster Management LLC, Application Record, Ontario Superior Court / FTI Consulting (2024-05-20) — http://cfcanada.fticonsulting.com/redlobster/docs/Application%20Record%20-%20Applicant%20-%2020-MAY-2024.pdf
 - Second Report of the Information Officer, FTI Consulting / Ontario Superior Court (2024-09-09) — http://cfcanada.fticonsulting.com/redlobster/docs/Second%20Report%20of%20the%20Information%20Officer%20-%209%20SEPT%202024.pdf

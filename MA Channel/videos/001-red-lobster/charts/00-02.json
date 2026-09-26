@@ -1,0 +1,13 @@
+{
+  "type": "number_counter",
+  "theme": "paper",
+  "title": "Shrimp loss vs. rent bill",
+  "source": "Chapter 11 declaration (J. Tibus), 2024",
+  "duration": 8.0,
+  "out": "00-02.mp4",
+  "prefix": "$",
+  "decimals": 0,
+  "from": 11000000,
+  "to": 190500000,
+  "caption": "Both figures, same sworn 2024 filing"
+}

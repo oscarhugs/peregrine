@@ -1,0 +1,22 @@
+{
+  "type": "timeline",
+  "theme": "paper",
+  "title": "1968-1995: Red Lobster's early years",
+  "source": "Chapter 11 declaration (J. Tibus), 2024",
+  "duration": 10,
+  "out": "01-05.mp4",
+  "events": [
+    {
+      "date": "1968",
+      "label": "Bill Darden opens Red Lobster"
+    },
+    {
+      "date": "1970",
+      "label": "General Mills acquires Red Lobster"
+    },
+    {
+      "date": "1995",
+      "label": "Spun off as Darden Restaurants"
+    }
+  ]
+}

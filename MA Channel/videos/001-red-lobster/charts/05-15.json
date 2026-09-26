@@ -1,0 +1,13 @@
+{
+  "type": "number_counter",
+  "theme": "paper",
+  "title": "Cash on hand, May 2023",
+  "source": "Chapter 11 declaration (J. Tibus), 2024",
+  "duration": 9.2,
+  "out": "05-15.mp4",
+  "prefix": "$",
+  "decimals": 0,
+  "from": 0,
+  "to": 100000000,
+  "caption": "Cash on hand, May 2023"
+}

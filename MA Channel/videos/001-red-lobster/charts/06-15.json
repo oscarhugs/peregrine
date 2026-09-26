@@ -1,0 +1,18 @@
+{
+  "type": "timeline",
+  "theme": "paper",
+  "title": "Nine years of rising rent",
+  "source": "deal timeline, 2014-2023 (calc.)",
+  "duration": 7.6,
+  "out": "06-15.mp4",
+  "events": [
+    {
+      "date": "2014",
+      "label": "Sale-leaseback begins"
+    },
+    {
+      "date": "2023",
+      "label": "Nine years of rising rent later"
+    }
+  ]
+}

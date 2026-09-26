@@ -1,0 +1,42 @@
+{
+  "type": "deal_flow",
+  "theme": "paper",
+  "title": "Who got paid",
+  "source": "Darden and ARCP filings, 2014; Chapter 11 declaration, 2024",
+  "duration": 6.4,
+  "out": "06-20.mp4",
+  "nodes": [
+    {
+      "id": "rl",
+      "label": "Red Lobster",
+      "x": 0.5,
+      "y": 0.7
+    },
+    {
+      "id": "darden",
+      "label": "Darden (2014)",
+      "x": 0.18,
+      "y": 0.3
+    },
+    {
+      "id": "landlord",
+      "label": "Landlord",
+      "x": 0.82,
+      "y": 0.3
+    }
+  ],
+  "edges": [
+    {
+      "from": "rl",
+      "to": "darden",
+      "label": "one-time proceeds, 2014",
+      "delay": 0
+    },
+    {
+      "from": "rl",
+      "to": "landlord",
+      "label": "rent, every year since",
+      "delay": 0.6
+    }
+  ]
+}

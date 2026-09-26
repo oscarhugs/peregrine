@@ -1,0 +1,22 @@
+{
+  "type": "bar_compare",
+  "theme": "paper",
+  "title": "Shrimp loss vs. underperformer rent",
+  "source": "Chapter 11 declaration (J. Tibus), 2024 (calc.)",
+  "duration": 6.0,
+  "out": "06-08.mp4",
+  "prefix": "$",
+  "suffix": "M",
+  "decimals": 0,
+  "highlight": 1,
+  "bars": [
+    {
+      "label": "Endless Shrimp loss",
+      "value": 11
+    },
+    {
+      "label": "Rent on underperforming stores",
+      "value": 64
+    }
+  ]
+}

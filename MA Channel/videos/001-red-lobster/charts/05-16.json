@@ -1,0 +1,21 @@
+{
+  "type": "line_reveal",
+  "theme": "paper",
+  "title": "Cash on hand drains, 2023",
+  "source": "Chapter 11 declaration (J. Tibus), 2024",
+  "duration": 9.6,
+  "out": "05-16.mp4",
+  "prefix": "$",
+  "decimals": 0,
+  "points": [
+    {
+      "x": 0,
+      "y": 100000000
+    },
+    {
+      "x": 6,
+      "y": 30000000
+    }
+  ],
+  "annotations": []
+}

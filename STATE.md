@@ -15,11 +15,12 @@ _Last updated: 2026-09-26_
   3. 🔶 doc_highlighter: done on branch `codex/doc-highlighter` (2 commits, validated on live EDGAR), **not merged yet**
   4. `MA Channel/tools/renderer/CODEX_TASK.md`: storyboard.json + vo → rough-cut MP4, SRT, DaVinci FCPXML, assets_todo.md (FFmpeg, laptop-friendly)
 - **Pilot 001 next:** 1) Oscar makes hero images per `videos/001-red-lobster/thumbs/HERO_PROMPTS.md` → Claude renders finals (T2 needs a "RENT DUE" overlay added to make_thumb.py); 2) write end card once ep 002 topic is picked; 3) wait for Codex tools (voice → charts → doc_highlighter → renderer) to render. Oscar: record the voice reference now (voice tool is merged; it runs locally on the Legion's RTX 2060).
-- Need from Oscar: email for SEC_USER_AGENT (in `MA Channel/.env`) to fetch the 2014 Darden/ARCP 8-Ks and confirm the $2.1B / $1.5B figures (currently sourced to the Starboard proxy).
+- Codex bug for charts tool: a text field with two `$` signs is parsed as matplotlib mathtext and mangled; `render.py` should escape `$`. Beat 02-02 needs a non-chart visual (no verified stock series).
 - ZoomInfo lead work: see `Zoominfo Scraper/STATE.md` (own repo, own state file).
 
 ## Recently done
 
+- 2026-09-26 — Pilot 001: 2014 Darden/ARCP 8-Ks fetched (S60–S65, verified); $2.1B/$1.6B/$1.5B now cite primary filings in script, storyboard, charts, publish.md. 27 chart specs in `videos/001-red-lobster/charts/` (stills validated; 02-02 skipped, no verified stock series).
 - 2026-09-26 — Pilot 001: storyboard.json (133 beats, ~14 min, 13 doc quotes verified verbatim), publish.md (3 titles, description, sources, pinned comment, tags), renderer Codex brief (queue #4), thumbnail specs + hero prompts; make_thumb.py got figure_prev + arrow options.
 - 2026-09-26 — Red Lobster pilot: 13 verified sources, dossier, script (4 drafts: humanized, fact-checked, packaging-tuned, practitioner takes), packaging + thumbnail drafts. Squad agents created. STATE split per agent (STATE.codex.md + .gitattributes union merge; Codex on codex/* branches with PRs).
 - 2026-09-25 — MA Channel: pulled YouTube data for 15 benchmark channels + 12 M&A/PE searches (yt-dlp), thumbnail analysis, wrote research + execution plan.

@@ -1,0 +1,21 @@
+{
+  "type": "bar_compare",
+  "theme": "paper",
+  "title": "Price paid vs. real estate sold",
+  "source": "Darden and ARCP press releases, May 2014 (calc.)",
+  "duration": 6.0,
+  "out": "03-10.mp4",
+  "prefix": "$",
+  "suffix": "B",
+  "decimals": 1,
+  "bars": [
+    {
+      "label": "Price paid for Red Lobster",
+      "value": 2.1
+    },
+    {
+      "label": "Real estate sold to ARCP",
+      "value": 1.5
+    }
+  ]
+}

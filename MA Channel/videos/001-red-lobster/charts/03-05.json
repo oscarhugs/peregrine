@@ -1,0 +1,42 @@
+{
+  "type": "deal_flow",
+  "theme": "paper",
+  "title": "The 2014 deal, in two steps",
+  "source": "Darden and ARCP press releases, May 2014",
+  "duration": 9.6,
+  "out": "03-05.mp4",
+  "nodes": [
+    {
+      "id": "darden",
+      "label": "Darden",
+      "x": 0.15,
+      "y": 0.5
+    },
+    {
+      "id": "gg",
+      "label": "Golden Gate Capital",
+      "x": 0.5,
+      "y": 0.5
+    },
+    {
+      "id": "arcp",
+      "label": "ARCP (REIT)",
+      "x": 0.85,
+      "y": 0.5
+    }
+  ],
+  "edges": [
+    {
+      "from": "darden",
+      "to": "gg",
+      "label": "sells Red Lobster, $2.1B",
+      "delay": 0
+    },
+    {
+      "from": "gg",
+      "to": "arcp",
+      "label": "sells real estate, $1.5B",
+      "delay": 0.6
+    }
+  ]
+}

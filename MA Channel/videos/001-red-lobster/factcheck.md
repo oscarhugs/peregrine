@@ -65,3 +65,8 @@
 | A5 | Before 2014, RL owned much of the real estate it operated on | ✅ | S41 l.7 "sold the real estate Red Lobster owned for $1.5 billion" | softened from "most of the buildings" (unsupported) |
 | A6 | "the company that supplied the shrimp" | ✅ | S25 (Thai Union "large-scale supplier") | replaced "caught" (inaccurate) |
 Previous version saved as `script.v2.md`.
+
+## Addendum 2026-09-26: primary SEC filings
+- $2.1B price, ~$1.6B net to Darden: now ✅ primary, S60b (Darden press release, 2014-05-16) and S62b (close).
+- $1.5B sale-leaseback of 500+ properties: now ✅ primary, S64b (ARCP press release, 2014-05-16).
+- The script re-cites these to S60b/S64b; S05 stays the source for Starboard's arguments only.

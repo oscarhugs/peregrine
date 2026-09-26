@@ -1,0 +1,24 @@
+{
+  "type": "line_reveal",
+  "theme": "paper",
+  "title": "Guest count, 2019-2023",
+  "source": "Chapter 11 declaration (J. Tibus), 2024",
+  "duration": 7.2,
+  "out": "04-11.mp4",
+  "points": [
+    {
+      "x": 2019,
+      "y": 100
+    },
+    {
+      "x": 2023,
+      "y": 70
+    }
+  ],
+  "annotations": [
+    {
+      "x": 2023,
+      "label": "-30% since 2019"
+    }
+  ]
+}

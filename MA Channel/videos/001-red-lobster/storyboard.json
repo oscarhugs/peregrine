@@ -453,11 +453,12 @@
         "type": "doc_highlight",
         "brief": "Highlight the exact proxy-statement sentence stating gross vs. net proceeds.",
         "doc": {
-          "source": "S05",
-          "quote": "gross proceeds of approximately $2.1 billion and net proceeds of $1.6 billion"
+          "source": "S60b",
+          "quote": "to Golden Gate Capital for $2.1 billion in cash"
         },
         "source": "S05"
-      }
+      },
+      "source": "S60b"
     },
     {
       "id": "03-04",

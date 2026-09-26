@@ -1,0 +1,13 @@
+{
+  "type": "number_counter",
+  "theme": "paper",
+  "title": "2023 lease obligations",
+  "source": "Chapter 11 declaration (J. Tibus), 2024 (687 leased locations)",
+  "duration": 5.6,
+  "out": "06-04.mp4",
+  "prefix": "$",
+  "decimals": 0,
+  "from": 0,
+  "to": 190500000,
+  "caption": "2023 lease obligations, all 687 locations"
+}

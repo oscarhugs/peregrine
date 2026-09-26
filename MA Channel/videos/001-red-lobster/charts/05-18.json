@@ -1,0 +1,13 @@
+{
+  "type": "number_counter",
+  "theme": "paper",
+  "title": "Thai Union's write-off",
+  "source": "Thai Union statement, reported by Restaurant Dive, Jan 2024",
+  "duration": 7.6,
+  "out": "05-18.mp4",
+  "prefix": "$",
+  "decimals": 0,
+  "from": 0,
+  "to": 530000000,
+  "caption": "Thai Union write-off, Jan 2024"
+}

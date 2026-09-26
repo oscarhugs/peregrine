@@ -1,0 +1,18 @@
+{
+  "type": "timeline",
+  "theme": "paper",
+  "title": "Golden Gate's exit",
+  "source": "Chapter 11 declaration (J. Tibus), 2024",
+  "duration": 4,
+  "out": "06-21.mp4",
+  "events": [
+    {
+      "date": "2016",
+      "label": "Golden Gate sells stake to Thai Union"
+    },
+    {
+      "date": "2020",
+      "label": "Golden Gate exits fully"
+    }
+  ]
+}

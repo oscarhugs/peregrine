@@ -1,0 +1,21 @@
+{
+  "type": "bar_compare",
+  "theme": "paper",
+  "title": "Thai Union's stake by 2024",
+  "source": "Chapter 11 declaration (J. Tibus), 2024",
+  "duration": 4,
+  "out": "04-06.mp4",
+  "suffix": "%",
+  "decimals": 0,
+  "highlight": 1,
+  "bars": [
+    {
+      "label": "Thai Union common equity",
+      "value": 47
+    },
+    {
+      "label": "Thai Union preferred equity",
+      "value": 100
+    }
+  ]
+}

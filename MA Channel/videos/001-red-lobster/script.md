@@ -45,15 +45,15 @@ The board didn't wait.
 
 ## 03 The Deal
 
-On May 16, 2014, Darden announced it was selling Red Lobster, the restaurants and the real estate together, to the private equity firm Golden Gate Capital. The gross price was about two point one billion dollars. After taxes, Darden expected about one point six billion. [S05] [VISUAL: doc_highlight S05 "gross proceeds of approximately $2.1 billion and net proceeds of $1.6 billion"]
+On May 16, 2014, Darden announced it was selling Red Lobster, the restaurants and the real estate together, to the private equity firm Golden Gate Capital. The gross price was about two point one billion dollars. After taxes, Darden expected about one point six billion. [S60b] [VISUAL: doc_highlight S60b "to Golden Gate Capital for $2.1 billion in cash"]
 
-At the same moment, Golden Gate signed a second agreement. It would sell Red Lobster's real estate to a real estate investment trust called American Realty Capital Properties, for one point five billion dollars. [S05] [VISUAL: deal_flow Darden → Golden Gate $2.1B → ARCP $1.5B real estate]
+At the same moment, Golden Gate signed a second agreement. It would sell Red Lobster's real estate to a real estate investment trust called American Realty Capital Properties, for one point five billion dollars. [S60b] [S64b] [VISUAL: deal_flow Darden → Golden Gate $2.1B → ARCP $1.5B real estate]
 
 This is called a sale-leaseback. A company sells the buildings it owns, then signs a long-term lease to keep operating in them. It gets a big check today. In exchange, it pays rent forever after.
 
 Here is what that did to the math. [VISUAL: bar_compare: price paid $2.1B; real estate sold $1.5B; remainder $0.6B (calc)]
 
-Golden Gate agreed to pay roughly two point one billion for Red Lobster. It agreed, at the same time, to sell the buildings for one point five billion. That leaves roughly six hundred million dollars for the restaurant business itself, before fees and financing. (calc) [S05]
+Golden Gate agreed to pay roughly two point one billion for Red Lobster. It agreed, at the same time, to sell the buildings for one point five billion. That leaves roughly six hundred million dollars for the restaurant business itself, before fees and financing. (calc) [S60b] [S64b]
 
 Starboard ran the same numbers from Darden's side and was furious. In its proxy fight later that summer, it argued that Darden could have captured the real estate value itself, tax-free, and that the deal valued the actual restaurant business at about one hundred million dollars, less than one year of its earnings. Starboard called it a fire sale. [S05] [VISUAL: doc_highlight S05 "just $100 million in value for Red Lobster's operating business, or less than 1x EBITDA"]
 

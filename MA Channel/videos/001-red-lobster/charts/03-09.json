@@ -1,0 +1,14 @@
+{
+  "type": "number_counter",
+  "theme": "paper",
+  "title": "Price paid for Red Lobster",
+  "source": "Darden press release, May 16, 2014",
+  "duration": 5.2,
+  "out": "03-09.mp4",
+  "prefix": "$",
+  "suffix": "B",
+  "decimals": 1,
+  "from": 0,
+  "to": 2.1,
+  "caption": "Golden Gate's price for Red Lobster, 2014"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "bar_compare",
+  "theme": "paper",
+  "title": "Rent on the underperformers",
+  "source": "Chapter 11 declaration (J. Tibus), 2024",
+  "duration": 6.0,
+  "out": "06-07.mp4",
+  "prefix": "$",
+  "suffix": "M",
+  "decimals": 1,
+  "highlight": 1,
+  "bars": [
+    {
+      "label": "2023 lease obligations",
+      "value": 190.5
+    },
+    {
+      "label": "Rent on underperforming stores",
+      "value": 64
+    }
+  ]
+}

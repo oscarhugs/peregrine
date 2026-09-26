@@ -1,0 +1,14 @@
+{
+  "type": "number_counter",
+  "theme": "paper",
+  "title": "The 2014 headline numbers",
+  "source": "Darden and ARCP press releases, May 2014",
+  "duration": 5.2,
+  "out": "07-02.mp4",
+  "prefix": "$",
+  "suffix": "B",
+  "decimals": 1,
+  "from": 2.1,
+  "to": 1.5,
+  "caption": "Price paid vs. real estate sold, 2014"
+}

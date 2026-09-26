@@ -1,0 +1,12 @@
+{
+  "type": "number_counter",
+  "theme": "paper",
+  "title": "64 million guests a year",
+  "source": "Chapter 11 declaration (J. Tibus), 2024",
+  "duration": 6.4,
+  "out": "01-08.mp4",
+  "decimals": 0,
+  "from": 0,
+  "to": 64000000,
+  "caption": "Guests per year at time of bankruptcy"
+}

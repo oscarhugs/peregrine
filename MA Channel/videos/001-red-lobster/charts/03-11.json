@@ -1,0 +1,26 @@
+{
+  "type": "bar_compare",
+  "theme": "paper",
+  "title": "What's left for the restaurants",
+  "source": "Darden and ARCP press releases, May 2014 (calc.)",
+  "duration": 6.4,
+  "out": "03-11.mp4",
+  "prefix": "$",
+  "suffix": "B",
+  "decimals": 1,
+  "highlight": 2,
+  "bars": [
+    {
+      "label": "Price paid for Red Lobster",
+      "value": 2.1
+    },
+    {
+      "label": "Real estate sold to ARCP",
+      "value": 1.5
+    },
+    {
+      "label": "Remainder for restaurant business",
+      "value": 0.6
+    }
+  ]
+}

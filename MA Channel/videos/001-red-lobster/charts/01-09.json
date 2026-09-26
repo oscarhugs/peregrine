@@ -1,0 +1,13 @@
+{
+  "type": "number_counter",
+  "theme": "paper",
+  "title": "20% of lobster tails",
+  "source": "Chapter 11 declaration (J. Tibus), 2024",
+  "duration": 6.8,
+  "out": "01-09.mp4",
+  "suffix": "%",
+  "decimals": 0,
+  "from": 0,
+  "to": 20,
+  "caption": "Of all North American lobster tails"
+}
