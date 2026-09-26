@@ -1,0 +1,22 @@
+{
+  "type": "line_reveal",
+  "theme": "paper",
+  "title": "Revenue after the acquisition",
+  "source": "Illustrative example (fictional)",
+  "duration": 5,
+  "out": "../out/line_reveal.mp4",
+  "prefix": "$",
+  "suffix": "M",
+  "points": [
+    {"x": 2018, "y": 75},
+    {"x": 2019, "y": 92},
+    {"x": 2020, "y": 106},
+    {"x": 2021, "y": 94},
+    {"x": 2022, "y": 68},
+    {"x": 2023, "y": 41}
+  ],
+  "annotations": [
+    {"x": 2020, "label": "Deal announced"},
+    {"x": 2022, "label": "Integration stalls"}
+  ]
+}

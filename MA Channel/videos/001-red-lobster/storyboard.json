@@ -1,0 +1,2008 @@
+{
+  "video": "001-red-lobster",
+  "wpm": 150,
+  "beats": [
+    {
+      "id": "00-01",
+      "section": "00 Cold Open",
+      "vo": "In May 2024, Red Lobster filed for bankruptcy, and the internet blamed a twenty-dollar plate of endless shrimp.",
+      "est_sec": 7.2,
+      "visual": {
+        "type": "stock",
+        "brief": "Fast montage: Endless Shrimp promo signage, $20 menu board, viral headlines/tweets about the bankruptcy.",
+        "search": "Red Lobster Endless Shrimp promotion menu sign viral news",
+        "music": "tension"
+      }
+    },
+    {
+      "id": "00-02",
+      "section": "00 Cold Open",
+      "vo": "The shrimp cost eleven million dollars. That same year, Red Lobster's rent bill was about one hundred and ninety million.",
+      "est_sec": 8.0,
+      "visual": {
+        "type": "chart",
+        "brief": "Number counter: $11M (shrimp loss) morphs into $190.5M (rent bill).",
+        "chart_spec": {
+          "type": "number_counter",
+          "theme": "paper",
+          "sequence": [
+            {
+              "value": 11000000,
+              "label": "Endless Shrimp promotion cost"
+            },
+            {
+              "value": 190500000,
+              "label": "2023 lease obligations"
+            }
+          ],
+          "source_line": "Source: Tibus Declaration, Ch. 11 filing, 2024"
+        },
+        "source": "S25",
+        "on_screen_text": "$11M → $190.5M"
+      }
+    },
+    {
+      "id": "00-03",
+      "section": "00 Cold Open",
+      "vo": "Both numbers come from the same sworn statement, filed by the company's own restructuring chief.",
+      "est_sec": 6.0,
+      "visual": {
+        "type": "doc_highlight",
+        "brief": "Highlight the sworn declaration these two numbers come from.",
+        "doc": {
+          "source": "S25",
+          "quote": "costing the Debtors $11 million"
+        },
+        "source": "S25"
+      }
+    },
+    {
+      "id": "00-04",
+      "section": "00 Cold Open",
+      "vo": "The shrimp story is easy to tell. It's also the least interesting part of what happened.",
+      "est_sec": 6.4,
+      "visual": {
+        "type": "stock",
+        "brief": "Hard cut: shrimp plate imagery fades, tone shifts to something more serious — dim lighting, slow push-in on an empty dining room.",
+        "search": "empty seafood restaurant dining room dim lighting"
+      }
+    },
+    {
+      "id": "00-05",
+      "section": "00 Cold Open",
+      "vo": "Before 2014, Red Lobster owned much of the real estate it operated on.",
+      "est_sec": 5.2,
+      "visual": {
+        "type": "archival",
+        "brief": "Archival photo of a Red Lobster restaurant with its parking lot and building, emphasizing the company owned the ground beneath it.",
+        "search": "Red Lobster restaurant exterior real estate parking lot 2000s"
+      }
+    },
+    {
+      "id": "00-06",
+      "section": "00 Cold Open",
+      "vo": "So how did Red Lobster end up with a rent bill seventeen times bigger than its shrimp disaster?",
+      "est_sec": 7.2,
+      "visual": {
+        "type": "chart",
+        "brief": "Simple number reveal: 17x, with a small caption comparing rent to the shrimp loss.",
+        "chart_spec": {
+          "type": "number_counter",
+          "theme": "paper",
+          "sequence": [
+            {
+              "value": 17,
+              "suffix": "x",
+              "label": "Rent bill vs. shrimp loss"
+            }
+          ],
+          "source_line": "Source: Tibus Declaration, 2024 ($190.5M / $11M)"
+        },
+        "on_screen_text": "17x bigger"
+      }
+    },
+    {
+      "id": "00-07",
+      "section": "00 Cold Open",
+      "vo": "The answer is a deal. It was signed in 2014, and it involved a restaurant company, a private equity firm, a real estate investment trust,",
+      "est_sec": 10.0,
+      "visual": {
+        "type": "ai_motion",
+        "brief": "Abstract animation: a hand (no visible face) signing a stack of documents on a boardroom table, papers labeled generically as a deal contract.",
+        "prompt": "Close-up of a hand signing a business contract on a dark wood table, generic corporate documents, no faces, no logos, cinematic lighting"
+      }
+    },
+    {
+      "id": "00-08",
+      "section": "00 Cold Open",
+      "vo": "and, later, the company that supplied the shrimp. This is the postmortem of that deal.",
+      "est_sec": 6.0,
+      "visual": {
+        "type": "title_card",
+        "brief": "Brand bumper: title card reading the episode's framing line before cutting to Act 1.",
+        "on_screen_text": "THE POSTMORTEM"
+      }
+    },
+    {
+      "id": "01-01",
+      "section": "01 The Golden Age",
+      "vo": "In 1968, a restaurateur named Bill Darden opened a seafood restaurant in Lakeland, Florida.",
+      "est_sec": 5.6,
+      "visual": {
+        "type": "archival",
+        "brief": "Archival-style photo of the original 1968 Red Lobster restaurant building in Lakeland, Florida.",
+        "search": "first Red Lobster restaurant Lakeland Florida 1968"
+      }
+    },
+    {
+      "id": "01-02",
+      "section": "01 The Golden Age",
+      "vo": "He called it Red Lobster, and the idea was simple.",
+      "est_sec": 4.0,
+      "visual": {
+        "type": "archival",
+        "brief": "Continue on vintage Red Lobster signage / storefront, period-appropriate.",
+        "search": "vintage Red Lobster restaurant sign 1970s"
+      }
+    },
+    {
+      "id": "01-03",
+      "section": "01 The Golden Age",
+      "vo": "Seafood, at a price a family could afford, in a place that wasn't a fancy coastal restaurant.",
+      "est_sec": 6.8,
+      "visual": {
+        "type": "stock",
+        "brief": "Family eating at an affordable seafood restaurant, warm diner lighting — contrast with 'fancy coastal restaurant'.",
+        "search": "family dining casual seafood restaurant 1970s"
+      }
+    },
+    {
+      "id": "01-04",
+      "section": "01 The Golden Age",
+      "vo": "Two years later, General Mills bought it.",
+      "est_sec": 2.8,
+      "visual": {
+        "type": "chart",
+        "brief": "Timeline node appears: 1970, General Mills acquisition.",
+        "chart_spec": {
+          "type": "timeline",
+          "theme": "paper",
+          "events": [
+            {
+              "date": "1968",
+              "label": "Bill Darden opens Red Lobster"
+            },
+            {
+              "date": "1970",
+              "label": "General Mills acquires Red Lobster"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "01-05",
+      "section": "01 The Golden Age",
+      "vo": "Under the cereal giant, Red Lobster became a national chain, and in 1995 General Mills spun its restaurant business off as a separate public company,",
+      "est_sec": 10.0,
+      "visual": {
+        "type": "chart",
+        "brief": "Timeline continues to 1995 node, Darden Restaurants spin-off.",
+        "chart_spec": {
+          "type": "timeline",
+          "theme": "paper",
+          "events": [
+            {
+              "date": "1968",
+              "label": "Bill Darden opens Red Lobster"
+            },
+            {
+              "date": "1970",
+              "label": "General Mills acquires Red Lobster"
+            },
+            {
+              "date": "1995",
+              "label": "Spun off as Darden Restaurants"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "01-06",
+      "section": "01 The Golden Age",
+      "vo": "named after the founder. Darden Restaurants.",
+      "est_sec": 2.4,
+      "visual": {
+        "type": "title_card",
+        "brief": "Bold wordmark-style card: the new public company's name.",
+        "on_screen_text": "Darden Restaurants"
+      }
+    },
+    {
+      "id": "01-07",
+      "section": "01 The Golden Age",
+      "vo": "Red Lobster grew into the largest casual dining seafood chain in the United States.",
+      "est_sec": 5.6,
+      "visual": {
+        "type": "stock",
+        "brief": "Montage of Red Lobster restaurant exteriors from the 1990s-2010s, chain at scale.",
+        "search": "Red Lobster restaurant chain exterior multiple locations"
+      }
+    },
+    {
+      "id": "01-08",
+      "section": "01 The Golden Age",
+      "vo": "Even at the time of its bankruptcy, it served more than sixty-four million customers a year",
+      "est_sec": 6.4,
+      "visual": {
+        "type": "chart",
+        "brief": "Number counter climbing to 64 million guests per year.",
+        "chart_spec": {
+          "type": "number_counter",
+          "theme": "paper",
+          "sequence": [
+            {
+              "value": 64000000,
+              "label": "guests per year at time of bankruptcy"
+            }
+          ],
+          "source_line": "Source: Tibus Declaration, 2024"
+        },
+        "source": "S25",
+        "on_screen_text": "64M guests/yr"
+      }
+    },
+    {
+      "id": "01-09",
+      "section": "01 The Golden Age",
+      "vo": "and bought twenty percent of all North American lobster tails. Darden didn't just run Red Lobster restaurants.",
+      "est_sec": 6.8,
+      "visual": {
+        "type": "chart",
+        "brief": "Bar/number callout: 20% of all North American lobster tails purchased by Red Lobster.",
+        "chart_spec": {
+          "type": "number_counter",
+          "theme": "paper",
+          "sequence": [
+            {
+              "value": 20,
+              "suffix": "%",
+              "label": "of all North American lobster tails"
+            }
+          ],
+          "source_line": "Source: Tibus Declaration, 2024"
+        },
+        "source": "S25",
+        "on_screen_text": "20% of lobster tails"
+      }
+    },
+    {
+      "id": "01-10",
+      "section": "01 The Golden Age",
+      "vo": "For a large share of them, it owned the land and the buildings too. No landlord. No rent check.",
+      "est_sec": 7.6,
+      "visual": {
+        "type": "stock",
+        "brief": "Wide shot of a Red Lobster property — building and land together, no landlord signage, emphasizing ownership.",
+        "search": "restaurant owned real estate building and land aerial"
+      }
+    },
+    {
+      "id": "01-11",
+      "section": "01 The Golden Age",
+      "vo": "That real estate sat quietly on the balance sheet, and for a long time nobody outside the company thought much about it.",
+      "est_sec": 8.8,
+      "visual": {
+        "type": "photo",
+        "brief": "Generic corporate balance-sheet / annual report imagery, real estate line item, nobody paying attention to it.",
+        "search": "corporate annual report balance sheet real estate line item"
+      }
+    },
+    {
+      "id": "01-12",
+      "section": "01 The Golden Age",
+      "vo": "In 2014, someone did.",
+      "est_sec": 1.6,
+      "visual": {
+        "type": "title_card",
+        "brief": "Single-word year card, ominous pause before Act 2.",
+        "on_screen_text": "2014"
+      }
+    },
+    {
+      "id": "02-01",
+      "section": "02 The Pressure",
+      "vo": "By 2013, Red Lobster was in a slow decline. Casual dining was losing customers to fast-casual chains, and seafood costs were volatile.",
+      "est_sec": 8.8,
+      "visual": {
+        "type": "stock",
+        "brief": "Casual dining decline: empty booths, a 'seafood market price' chalkboard, fast-casual competitor storefronts (Chipotle-style) in quick cuts.",
+        "search": "empty restaurant booths casual dining decline fast casual competitor"
+      }
+    },
+    {
+      "id": "02-02",
+      "section": "02 The Pressure",
+      "vo": "Darden's stock was lagging its peers. That attracted an activist investor.",
+      "est_sec": 4.4,
+      "visual": {
+        "type": "chart",
+        "brief": "Line reveal of Darden's stock price lagging restaurant-sector peers through 2013.",
+        "chart_spec": {
+          "type": "line_reveal",
+          "theme": "paper",
+          "series": [
+            {
+              "label": "Darden",
+              "values": [
+                100,
+                96,
+                92,
+                88
+              ]
+            },
+            {
+              "label": "Peer index",
+              "values": [
+                100,
+                104,
+                109,
+                115
+              ]
+            }
+          ],
+          "annotations": [
+            {
+              "x": 3,
+              "label": "Darden underperforms peers"
+            }
+          ],
+          "source_line": "Source: Starboard Value DEFC14A, Aug 2014"
+        },
+        "source": "S05"
+      }
+    },
+    {
+      "id": "02-03",
+      "section": "02 The Pressure",
+      "vo": "In December 2013, the hedge fund Starboard Value disclosed a 5.6 percent stake in Darden and argued that the company was undervalued.",
+      "est_sec": 8.8,
+      "visual": {
+        "type": "title_card",
+        "brief": "Bold stat card introducing the activist investor.",
+        "on_screen_text": "Starboard Value · 5.6% · Dec 2013"
+      }
+    },
+    {
+      "id": "02-04",
+      "section": "02 The Pressure",
+      "vo": "Starboard's thesis was about real estate. Darden owned hundreds of restaurant properties, and Starboard believed that value could be unlocked for shareholders,",
+      "est_sec": 8.8,
+      "visual": {
+        "type": "stock",
+        "brief": "Aerial/drone-style shot of suburban restaurant real estate parcels — the asset Starboard was pointing at.",
+        "search": "aerial view suburban restaurant real estate parking lots"
+      }
+    },
+    {
+      "id": "02-05",
+      "section": "02 The Pressure",
+      "vo": "ideally in a tax-efficient way, while Darden kept the upside of its restaurants.",
+      "est_sec": 5.2,
+      "visual": {
+        "type": "stock",
+        "brief": "Generic corporate office tower exterior, evoking 'tax-efficient value' financial engineering.",
+        "search": "corporate office tower exterior glass building"
+      }
+    },
+    {
+      "id": "02-06",
+      "section": "02 The Pressure",
+      "vo": "Darden's board had a different plan. It wanted to separate Red Lobster from the rest of the company.",
+      "est_sec": 7.2,
+      "visual": {
+        "type": "stock",
+        "brief": "Empty boardroom table, generic — the board weighing its plan.",
+        "search": "empty corporate boardroom table generic"
+      }
+    },
+    {
+      "id": "02-07",
+      "section": "02 The Pressure",
+      "vo": "Investors were split. A majority of Darden's shareholders formally asked the board to hold a special meeting before any sale. The board didn't wait.",
+      "est_sec": 9.6,
+      "visual": {
+        "type": "doc_highlight",
+        "brief": "Highlight the proxy statement line describing shareholders' request for a special meeting that the board bypassed.",
+        "doc": {
+          "source": "S05",
+          "quote": "delivered written consents from a majority of outstanding shares supporting its request for a special meeting"
+        },
+        "source": "S05"
+      }
+    },
+    {
+      "id": "03-01",
+      "section": "03 The Deal",
+      "vo": "On May 16, 2014, Darden announced it was selling Red Lobster, the restaurants and the real estate together,",
+      "est_sec": 7.2,
+      "visual": {
+        "type": "archival",
+        "brief": "Quick montage of 2014 press headlines announcing the Red Lobster sale.",
+        "search": "Darden sells Red Lobster 2014 news headline"
+      }
+    },
+    {
+      "id": "03-02",
+      "section": "03 The Deal",
+      "vo": "to the private equity firm Golden Gate Capital.",
+      "est_sec": 3.2,
+      "visual": {
+        "type": "title_card",
+        "brief": "Clean name card for the buyer.",
+        "on_screen_text": "Golden Gate Capital"
+      }
+    },
+    {
+      "id": "03-03",
+      "section": "03 The Deal",
+      "vo": "The gross price was about two point one billion dollars. After taxes, Darden expected about one point six billion.",
+      "est_sec": 7.6,
+      "visual": {
+        "type": "doc_highlight",
+        "brief": "Highlight the exact proxy-statement sentence stating gross vs. net proceeds.",
+        "doc": {
+          "source": "S05",
+          "quote": "gross proceeds of approximately $2.1 billion and net proceeds of $1.6 billion"
+        },
+        "source": "S05"
+      }
+    },
+    {
+      "id": "03-04",
+      "section": "03 The Deal",
+      "vo": "At the same moment, Golden Gate signed a second agreement.",
+      "est_sec": 4.0,
+      "visual": {
+        "type": "stock",
+        "brief": "Quick transition shot — a second signature line, second contract, implying a second, simultaneous deal.",
+        "search": "business contract signature page close up"
+      }
+    },
+    {
+      "id": "03-05",
+      "section": "03 The Deal",
+      "vo": "It would sell Red Lobster's real estate to a real estate investment trust called American Realty Capital Properties, for one point five billion dollars.",
+      "est_sec": 9.6,
+      "visual": {
+        "type": "chart",
+        "brief": "Deal-flow diagram: Darden → Golden Gate ($2.1B) → ARCP ($1.5B real estate), boxes and arrows animating in.",
+        "chart_spec": {
+          "type": "deal_flow",
+          "theme": "paper",
+          "nodes": [
+            {
+              "id": "darden",
+              "label": "Darden",
+              "x": 100,
+              "y": 300
+            },
+            {
+              "id": "gg",
+              "label": "Golden Gate Capital",
+              "x": 500,
+              "y": 300
+            },
+            {
+              "id": "arcp",
+              "label": "American Realty Capital Properties",
+              "x": 900,
+              "y": 300
+            }
+          ],
+          "edges": [
+            {
+              "from": "darden",
+              "to": "gg",
+              "label": "sells Red Lobster $2.1B",
+              "delay": 0
+            },
+            {
+              "from": "gg",
+              "to": "arcp",
+              "label": "sells real estate $1.5B",
+              "delay": 1.5
+            }
+          ],
+          "source_line": "Source: Starboard Value DEFC14A, Aug 2014"
+        },
+        "source": "S05"
+      }
+    },
+    {
+      "id": "03-06",
+      "section": "03 The Deal",
+      "vo": "This is called a sale-leaseback. A company sells the buildings it owns, then signs a long-term lease to keep operating in them.",
+      "est_sec": 8.8,
+      "visual": {
+        "type": "ai_motion",
+        "brief": "Simple abstract diagram animation: a building icon splits into 'sold' (deed changes hands) and 'leased back' (arrow looping back into the same building), no people, no real logos.",
+        "prompt": "Minimalist flat-icon animation: a building outline, an arrow showing it being sold away, then a second arrow looping back labeled lease, clean vector style, brand colors paper background ink lines red accent"
+      }
+    },
+    {
+      "id": "03-07",
+      "section": "03 The Deal",
+      "vo": "It gets a big check today. In exchange, it pays rent forever after.",
+      "est_sec": 5.2,
+      "visual": {
+        "type": "stock",
+        "brief": "Close-up of hands (unidentifiable) exchanging a generic bank check across a table.",
+        "search": "hands exchanging bank check business deal close up"
+      }
+    },
+    {
+      "id": "03-08",
+      "section": "03 The Deal",
+      "vo": "Here is what that did to the math.",
+      "est_sec": 3.2,
+      "visual": {
+        "type": "title_card",
+        "brief": "Section bumper before the math breakdown.",
+        "on_screen_text": "THE MATH"
+      }
+    },
+    {
+      "id": "03-09",
+      "section": "03 The Deal",
+      "vo": "Golden Gate agreed to pay roughly two point one billion for Red Lobster.",
+      "est_sec": 5.2,
+      "visual": {
+        "type": "chart",
+        "brief": "Bar grows in: $2.1B price paid.",
+        "chart_spec": {
+          "type": "bar_compare",
+          "theme": "paper",
+          "bars": [
+            {
+              "label": "Price paid for Red Lobster",
+              "value": 2.1,
+              "unit": "$B"
+            }
+          ],
+          "source_line": "Source: Starboard Value DEFC14A, Aug 2014 (calc.)"
+        },
+        "source": "S05"
+      }
+    },
+    {
+      "id": "03-10",
+      "section": "03 The Deal",
+      "vo": "It agreed, at the same time, to sell the buildings for one point five billion.",
+      "est_sec": 6.0,
+      "visual": {
+        "type": "chart",
+        "brief": "Second bar grows in beside the first: $1.5B real estate sold.",
+        "chart_spec": {
+          "type": "bar_compare",
+          "theme": "paper",
+          "bars": [
+            {
+              "label": "Price paid for Red Lobster",
+              "value": 2.1,
+              "unit": "$B"
+            },
+            {
+              "label": "Real estate sold to ARCP",
+              "value": 1.5,
+              "unit": "$B"
+            }
+          ],
+          "source_line": "Source: Starboard Value DEFC14A, Aug 2014 (calc.)"
+        },
+        "source": "S05"
+      }
+    },
+    {
+      "id": "03-11",
+      "section": "03 The Deal",
+      "vo": "That leaves roughly six hundred million dollars for the restaurant business itself, before fees and financing.",
+      "est_sec": 6.4,
+      "visual": {
+        "type": "chart",
+        "brief": "Third bar grows in: ~$0.6B implied remainder for the operating business, before fees.",
+        "chart_spec": {
+          "type": "bar_compare",
+          "theme": "paper",
+          "bars": [
+            {
+              "label": "Price paid for Red Lobster",
+              "value": 2.1,
+              "unit": "$B"
+            },
+            {
+              "label": "Real estate sold to ARCP",
+              "value": 1.5,
+              "unit": "$B"
+            },
+            {
+              "label": "Remainder for restaurant business",
+              "value": 0.6,
+              "unit": "$B"
+            }
+          ],
+          "source_line": "Source: Starboard Value DEFC14A, Aug 2014 (calc.)"
+        },
+        "source": "S05",
+        "on_screen_text": "~$0.6B left for the restaurants"
+      }
+    },
+    {
+      "id": "03-12",
+      "section": "03 The Deal",
+      "vo": "Starboard ran the same numbers from Darden's side and was furious.",
+      "est_sec": 4.4,
+      "visual": {
+        "type": "stock",
+        "brief": "Generic activist-investor office setting, papers and a phone on a desk, no identifiable people.",
+        "search": "financial analyst desk papers phone generic office"
+      }
+    },
+    {
+      "id": "03-13",
+      "section": "03 The Deal",
+      "vo": "In its proxy fight later that summer, it argued that Darden could have captured the real estate value itself, tax-free,",
+      "est_sec": 8.0,
+      "visual": {
+        "type": "stock",
+        "brief": "Close-up of a proxy statement document being flipped through, generic legal/financial paper texture.",
+        "search": "proxy statement legal document close up pages"
+      }
+    },
+    {
+      "id": "03-14",
+      "section": "03 The Deal",
+      "vo": "and that the deal valued the actual restaurant business at about one hundred million dollars, less than one year of its earnings.",
+      "est_sec": 8.8,
+      "visual": {
+        "type": "doc_highlight",
+        "brief": "Highlight Starboard's own valuation math from the proxy fight.",
+        "doc": {
+          "source": "S05",
+          "quote": "just $100 million in value for Red Lobster’s operating business, or less than 1x EBITDA"
+        },
+        "source": "S05"
+      }
+    },
+    {
+      "id": "03-15",
+      "section": "03 The Deal",
+      "vo": "Starboard called it a fire sale.",
+      "est_sec": 2.4,
+      "visual": {
+        "type": "title_card",
+        "brief": "Bold red stamp-style card punctuating Starboard's characterization.",
+        "on_screen_text": "“FIRE SALE”"
+      }
+    },
+    {
+      "id": "03-16",
+      "section": "03 The Deal",
+      "vo": "For Red Lobster, the restaurant chain, the deal changed one thing permanently.",
+      "est_sec": 4.8,
+      "visual": {
+        "type": "stock",
+        "brief": "Red Lobster restaurant signage, static shot, now reframed as a tenant's building rather than an owner's.",
+        "search": "Red Lobster restaurant sign storefront"
+      }
+    },
+    {
+      "id": "03-17",
+      "section": "03 The Deal",
+      "vo": "A company that had not paid rent on those properties now had a landlord,",
+      "est_sec": 5.6,
+      "visual": {
+        "type": "archival",
+        "brief": "Close-up of a generic commercial lease document, signature line and rent schedule visible (blank/mocked, not a real filing).",
+        "search": "commercial real estate lease document rent schedule"
+      }
+    },
+    {
+      "id": "03-18",
+      "section": "03 The Deal",
+      "vo": "and a rent bill scheduled to rise about two percent every year.",
+      "est_sec": 4.8,
+      "visual": {
+        "type": "ai_motion",
+        "brief": "Abstract animation: a staircase of dollar signs stepping upward, generic, no numbers claimed — illustrating rent escalation as a concept.",
+        "prompt": "Minimalist flat-icon animation, ascending staircase made of dollar sign icons, clean vector style, paper background, ink and signal red accent"
+      }
+    },
+    {
+      "id": "03-19",
+      "section": "03 The Deal",
+      "vo": "Why would a private equity firm structure a deal like this?",
+      "est_sec": 4.4,
+      "visual": {
+        "type": "stock",
+        "brief": "Skyscraper reflection, private-equity-world visual shorthand.",
+        "search": "skyscraper glass reflection financial district"
+      }
+    },
+    {
+      "id": "03-20",
+      "section": "03 The Deal",
+      "vo": "The logic is well known in the industry.",
+      "est_sec": 3.2,
+      "visual": {
+        "type": "stock",
+        "brief": "Continue on financial district b-roll, wide establishing shot.",
+        "search": "financial district street level wide shot"
+      }
+    },
+    {
+      "id": "03-21",
+      "section": "03 The Deal",
+      "vo": "Selling the real estate reduces how much of the buyer's own money is tied up in the deal.",
+      "est_sec": 7.2,
+      "visual": {
+        "type": "ai_motion",
+        "brief": "Abstract diagram: a large money icon shrinks as an arrow point to 'buyer's own cash' being reduced.",
+        "prompt": "Minimalist flat-icon animation, a stack of coins shrinking with a downward arrow labeled equity, clean vector style, paper background ink lines red accent"
+      }
+    },
+    {
+      "id": "03-22",
+      "section": "03 The Deal",
+      "vo": "The property investor gets a long, predictable stream of rent. And if the restaurants perform, everyone does well.",
+      "est_sec": 7.2,
+      "visual": {
+        "type": "ai_motion",
+        "brief": "Abstract diagram continues: a steady, level stream of coins flowing toward a 'landlord' icon.",
+        "prompt": "Minimalist flat-icon animation, a steady horizontal stream of coin icons flowing into a simple building icon, clean vector style, paper background ink lines red accent"
+      }
+    },
+    {
+      "id": "03-23",
+      "section": "03 The Deal",
+      "vo": "The risk sits with the tenant. Rent doesn't care whether customers show up. It escalates in good years and bad ones.",
+      "est_sec": 8.4,
+      "visual": {
+        "type": "stock",
+        "brief": "Split-screen: a full, busy dining room vs. an empty one — same rent either way.",
+        "search": "restaurant dining room full versus empty split screen"
+      }
+    },
+    {
+      "id": "03-24",
+      "section": "03 The Deal",
+      "vo": "A sale-leaseback isn't a bad tool.",
+      "est_sec": 2.4,
+      "visual": {
+        "type": "title_card",
+        "brief": "Neutral, non-judgmental transition card.",
+        "on_screen_text": "Not a bad tool"
+      }
+    },
+    {
+      "id": "03-25",
+      "section": "03 The Deal",
+      "vo": "It makes sense when the real estate is worth more to a property investor than it is sitting inside an operating company,",
+      "est_sec": 8.8,
+      "visual": {
+        "type": "stock",
+        "brief": "Commercial real estate photography, 'for lease' framing, neutral tone.",
+        "search": "commercial real estate investor property photography"
+      }
+    },
+    {
+      "id": "03-26",
+      "section": "03 The Deal",
+      "vo": "when the cash goes somewhere that earns more than the rent costs,",
+      "est_sec": 4.8,
+      "visual": {
+        "type": "stock",
+        "brief": "Continue: cash flowing through a generic ledger/spreadsheet on a laptop screen.",
+        "search": "spreadsheet ledger cash flow laptop screen"
+      }
+    },
+    {
+      "id": "03-27",
+      "section": "03 The Deal",
+      "vo": "and when the business is healthy enough to cover that rent comfortably in a bad year, not just a good one.",
+      "est_sec": 8.4,
+      "visual": {
+        "type": "stock",
+        "brief": "Continue: a healthy, busy restaurant interior, contrasted tone from the earlier empty one.",
+        "search": "busy successful restaurant interior dining"
+      }
+    },
+    {
+      "id": "03-28",
+      "section": "03 The Deal",
+      "vo": "What would worry an advisor here is the bundling.",
+      "est_sec": 3.6,
+      "visual": {
+        "type": "title_card",
+        "brief": "Section bumper flagging the analytical caveat.",
+        "on_screen_text": "THE CATCH"
+      }
+    },
+    {
+      "id": "03-29",
+      "section": "03 The Deal",
+      "vo": "When strong and weak restaurants sit in the same master lease, you can't walk away from the losers one by one.",
+      "est_sec": 8.4,
+      "visual": {
+        "type": "ai_motion",
+        "brief": "Abstract diagram: several small building icons (some green/healthy, some red/weak) bundled inside one large lease-document icon, unable to separate.",
+        "prompt": "Minimalist flat-icon animation, several small building icons in mixed colors bundled together inside one large document outline, clean vector style, paper background ink lines red accent"
+      }
+    },
+    {
+      "id": "03-30",
+      "section": "03 The Deal",
+      "vo": "Add rent that rises every year no matter how the stores perform, and a flexible business turns into a fixed-cost one.",
+      "est_sec": 8.4,
+      "visual": {
+        "type": "ai_motion",
+        "brief": "Continue: the bundle icon rigidifies, a flexible wavy line turns into a straight fixed line.",
+        "prompt": "Minimalist flat-icon animation, a wavy flexible line straightening into a rigid fixed line, clean vector style, paper background ink lines red accent"
+      }
+    },
+    {
+      "id": "03-31",
+      "section": "03 The Deal",
+      "vo": "And the cash from selling the buildings went to the deal, not to the restaurants.",
+      "est_sec": 6.0,
+      "visual": {
+        "type": "stock",
+        "brief": "Empty cash register drawer, generic.",
+        "search": "empty cash register drawer restaurant"
+      }
+    },
+    {
+      "id": "03-32",
+      "section": "03 The Deal",
+      "vo": "Starboard lost that battle but won the war.",
+      "est_sec": 3.2,
+      "visual": {
+        "type": "archival",
+        "brief": "Archival-style news footage still: a corporate annual meeting room, generic exterior shot of a company headquarters.",
+        "search": "corporate annual shareholder meeting building exterior"
+      }
+    },
+    {
+      "id": "03-33",
+      "section": "03 The Deal",
+      "vo": "In October 2014, Darden's shareholders voted out all twelve directors and replaced them with Starboard's slate.",
+      "est_sec": 6.4,
+      "visual": {
+        "type": "title_card",
+        "brief": "Bold stat card: the board overthrow.",
+        "on_screen_text": "All 12 Darden directors replaced · Oct 10, 2014"
+      }
+    },
+    {
+      "id": "03-34",
+      "section": "03 The Deal",
+      "vo": "But the Red Lobster sale had already closed.",
+      "est_sec": 3.2,
+      "visual": {
+        "type": "stock",
+        "brief": "A 'deal closed' stamp coming down on a document, generic.",
+        "search": "closed stamp document deal signed"
+      }
+    },
+    {
+      "id": "04-01",
+      "section": "04 The Turn",
+      "vo": "Golden Gate didn't hold Red Lobster alone for long.",
+      "est_sec": 3.6,
+      "visual": {
+        "type": "stock",
+        "brief": "Generic handshake/office transition shot implying new ownership.",
+        "search": "business handshake office transition generic"
+      }
+    },
+    {
+      "id": "04-02",
+      "section": "04 The Turn",
+      "vo": "In 2016, Thai Union Group, a Thai seafood conglomerate and a large-scale supplier of shrimp to Red Lobster,",
+      "est_sec": 7.2,
+      "visual": {
+        "type": "archival",
+        "brief": "Seafood processing / shrimp supply chain footage, establishing Thai Union's business.",
+        "search": "shrimp seafood processing facility supply chain"
+      }
+    },
+    {
+      "id": "04-03",
+      "section": "04 The Turn",
+      "vo": "invested five hundred seventy-five million dollars for a large minority stake.",
+      "est_sec": 4.4,
+      "visual": {
+        "type": "chart",
+        "brief": "Number counter: $575M investment for a minority stake.",
+        "chart_spec": {
+          "type": "number_counter",
+          "theme": "paper",
+          "sequence": [
+            {
+              "value": 575000000,
+              "label": "Thai Union invests for a minority stake, 2016"
+            }
+          ],
+          "source_line": "Source: Tibus Declaration, 2024"
+        },
+        "source": "S25",
+        "on_screen_text": "$575M · 2016"
+      }
+    },
+    {
+      "id": "04-04",
+      "section": "04 The Turn",
+      "vo": "In 2020, a group of investors led by Thai Union bought out Golden Gate's remaining stake.",
+      "est_sec": 6.4,
+      "visual": {
+        "type": "title_card",
+        "brief": "Ownership transition card marking the 2020 buyout of Golden Gate's stake.",
+        "on_screen_text": "2020: Thai Union buys out Golden Gate"
+      }
+    },
+    {
+      "id": "04-05",
+      "section": "04 The Turn",
+      "vo": "By the time of the bankruptcy filing, Thai Union held forty-seven percent of the common equity",
+      "est_sec": 6.4,
+      "visual": {
+        "type": "chart",
+        "brief": "Bar/number reveal: Thai Union holds 47% of common equity.",
+        "chart_spec": {
+          "type": "bar_compare",
+          "theme": "paper",
+          "bars": [
+            {
+              "label": "Thai Union common equity",
+              "value": 47,
+              "unit": "%"
+            }
+          ],
+          "source_line": "Source: Tibus Declaration, 2024"
+        },
+        "source": "S25"
+      }
+    },
+    {
+      "id": "04-06",
+      "section": "04 The Turn",
+      "vo": "and all of the preferred equity in Red Lobster's parent.",
+      "est_sec": 4.0,
+      "visual": {
+        "type": "chart",
+        "brief": "Second bar/callout: plus 100% of preferred equity.",
+        "chart_spec": {
+          "type": "bar_compare",
+          "theme": "paper",
+          "bars": [
+            {
+              "label": "Thai Union common equity",
+              "value": 47,
+              "unit": "%"
+            },
+            {
+              "label": "Thai Union preferred equity",
+              "value": 100,
+              "unit": "%"
+            }
+          ],
+          "source_line": "Source: Tibus Declaration, 2024"
+        },
+        "source": "S25",
+        "on_screen_text": "47% common + 100% preferred"
+      }
+    },
+    {
+      "id": "04-07",
+      "section": "04 The Turn",
+      "vo": "Red Lobster's controlling owner was also one of its most important suppliers.",
+      "est_sec": 4.8,
+      "visual": {
+        "type": "stock",
+        "brief": "Shrimp on ice at a supplier facility, connecting owner and supplier visually.",
+        "search": "shrimp on ice seafood supplier warehouse"
+      }
+    },
+    {
+      "id": "04-08",
+      "section": "04 The Turn",
+      "vo": "The same company that decided how much shrimp Red Lobster should buy was also the company selling it.",
+      "est_sec": 7.2,
+      "visual": {
+        "type": "ai_motion",
+        "brief": "Abstract diagram: one icon labeled with two arrows — one to 'buyer', one to 'seller' — both pointing at the same entity.",
+        "prompt": "Minimalist flat-icon animation, a single circular icon with two arrows pointing to it labeled buyer and seller, clean vector style, paper background ink lines red accent"
+      }
+    },
+    {
+      "id": "04-09",
+      "section": "04 The Turn",
+      "vo": "That arrangement isn't illegal, and it isn't unusual in food supply chains. But it creates a question every board has to manage.",
+      "est_sec": 8.8,
+      "visual": {
+        "type": "stock",
+        "brief": "Generic boardroom table shot, empty chairs, tension implied.",
+        "search": "corporate boardroom empty chairs tension"
+      }
+    },
+    {
+      "id": "04-10",
+      "section": "04 The Turn",
+      "vo": "When the interests of the owner and the interests of the restaurant pull in different directions, which one wins?",
+      "est_sec": 7.6,
+      "visual": {
+        "type": "ai_motion",
+        "brief": "Abstract animation: a rope in a tug-of-war between two unlabeled hands/icons pulling opposite directions.",
+        "prompt": "Minimalist flat-icon animation, a rope being pulled from two opposite directions by simple arrow icons, clean vector style, paper background ink lines red accent"
+      }
+    },
+    {
+      "id": "04-11",
+      "section": "04 The Turn",
+      "vo": "Meanwhile, the restaurants were struggling. Red Lobster's guest count fell by about thirty percent between 2019 and 2023.",
+      "est_sec": 7.2,
+      "visual": {
+        "type": "chart",
+        "brief": "Line reveal: Red Lobster guest count index, 2019-2023, down ~30%.",
+        "chart_spec": {
+          "type": "line_reveal",
+          "theme": "paper",
+          "series": [
+            {
+              "label": "Guest count index",
+              "values": [
+                100,
+                92,
+                80,
+                74,
+                70
+              ]
+            }
+          ],
+          "annotations": [
+            {
+              "x": 4,
+              "label": "-30% since 2019"
+            }
+          ],
+          "source_line": "Source: Tibus Declaration, 2024"
+        },
+        "source": "S25",
+        "on_screen_text": "Guests -30%, 2019–2023"
+      }
+    },
+    {
+      "id": "04-12",
+      "section": "04 The Turn",
+      "vo": "The pandemic hit casual dining hard, and then inflation arrived. Menu prices at restaurants rose faster than grocery prices, and customers started eating at home.",
+      "est_sec": 10.0,
+      "visual": {
+        "type": "stock",
+        "brief": "Montage: empty pandemic-era dining room, then a grocery store price sign hiking, then a to-go bag being carried out.",
+        "search": "pandemic empty restaurant grocery store prices rising"
+      }
+    },
+    {
+      "id": "04-13",
+      "section": "04 The Turn",
+      "vo": "Leadership churned too. The chain's CEO resigned in April 2022,",
+      "est_sec": 4.0,
+      "visual": {
+        "type": "stock",
+        "brief": "Generic office exit door / hallway, implying leadership churn without depicting a real person.",
+        "search": "office corridor exit door corporate generic"
+      }
+    },
+    {
+      "id": "04-14",
+      "section": "04 The Turn",
+      "vo": "and, according to the company's later bankruptcy filing, Thai Union directed that one of its own executives, Paul Kenny, step in as acting interim CEO.",
+      "est_sec": 10.0,
+      "visual": {
+        "type": "doc_highlight",
+        "brief": "Highlight the declaration's footnote establishing Thai Union's role in installing the interim CEO.",
+        "doc": {
+          "source": "S25",
+          "quote": "At the direction of Thai Union, Mr. Kenny became acting interim CEO"
+        },
+        "source": "S25"
+      }
+    },
+    {
+      "id": "04-15",
+      "section": "04 The Turn",
+      "vo": "And the rent kept rising.",
+      "est_sec": 2.0,
+      "visual": {
+        "type": "ai_motion",
+        "brief": "Simple abstract animation: a single upward-trending arrow made of small dollar-sign ticks, steady climb.",
+        "prompt": "Minimalist flat-icon animation, a steadily climbing arrow made of small dollar sign ticks, clean vector style, paper background ink lines red accent"
+      }
+    },
+    {
+      "id": "05-01",
+      "section": "05 The Collapse",
+      "vo": "In May 2023, Red Lobster made a decision that would become an internet punchline.",
+      "est_sec": 5.6,
+      "visual": {
+        "type": "stock",
+        "brief": "Endless Shrimp promo signage / menu board close-up, festive marketing energy.",
+        "search": "Endless Shrimp promotion menu board sign restaurant"
+      }
+    },
+    {
+      "id": "05-02",
+      "section": "05 The Collapse",
+      "vo": "Ultimate Endless Shrimp had always been a limited-time promotion.",
+      "est_sec": 3.6,
+      "visual": {
+        "type": "archival",
+        "brief": "Older, limited-time promo advertisement style graphic — 'for a limited time only' banner.",
+        "search": "limited time promotion advertisement banner retro"
+      }
+    },
+    {
+      "id": "05-03",
+      "section": "05 The Collapse",
+      "vo": "Paul Kenny made it a permanent twenty-dollar menu item.",
+      "est_sec": 3.6,
+      "visual": {
+        "type": "stock",
+        "brief": "Close-up of a menu board being updated to show a permanent $20 price tag.",
+        "search": "restaurant menu board price update close up"
+      }
+    },
+    {
+      "id": "05-04",
+      "section": "05 The Collapse",
+      "vo": "According to the company's own sworn filing, he did it despite significant pushback from other members of the management team.",
+      "est_sec": 8.0,
+      "visual": {
+        "type": "doc_highlight",
+        "brief": "Highlight the declaration's language on internal pushback against the decision.",
+        "doc": {
+          "source": "S25",
+          "quote": "despite significant pushback from other members of the Company’s management team"
+        },
+        "source": "S25"
+      }
+    },
+    {
+      "id": "05-05",
+      "section": "05 The Collapse",
+      "vo": "Customers loved it. That was the problem. People came in, ordered the deal, and kept ordering.",
+      "est_sec": 6.4,
+      "visual": {
+        "type": "stock",
+        "brief": "Packed, busy restaurant dining room, servers moving quickly, high demand energy.",
+        "search": "busy crowded restaurant dining room servers"
+      }
+    },
+    {
+      "id": "05-06",
+      "section": "05 The Collapse",
+      "vo": "The company says the promotion cost it eleven million dollars,",
+      "est_sec": 4.0,
+      "visual": {
+        "type": "chart",
+        "brief": "Number counter: $11M cost of the promotion.",
+        "chart_spec": {
+          "type": "number_counter",
+          "theme": "paper",
+          "sequence": [
+            {
+              "value": 11000000,
+              "label": "Cost of the Endless Shrimp promotion"
+            }
+          ],
+          "source_line": "Source: Tibus Declaration, 2024"
+        },
+        "source": "S25",
+        "on_screen_text": "$11M"
+      }
+    },
+    {
+      "id": "05-07",
+      "section": "05 The Collapse",
+      "vo": "and demand ran so far ahead of planning that some restaurants went days or weeks without certain types of shrimp.",
+      "est_sec": 8.0,
+      "visual": {
+        "type": "stock",
+        "brief": "Empty seafood display case, 'out of stock' handwritten sign.",
+        "search": "empty seafood display case out of stock sign"
+      }
+    },
+    {
+      "id": "05-08",
+      "section": "05 The Collapse",
+      "vo": "The filing goes further. Red Lobster said it was investigating whether Thai Union and Kenny pushed the promotion unusually hard in stores,",
+      "est_sec": 8.8,
+      "visual": {
+        "type": "stock",
+        "brief": "Aggressive in-store promotional signage, banners and floor decals pushing the deal.",
+        "search": "aggressive retail in-store promotion signage banners"
+      }
+    },
+    {
+      "id": "05-09",
+      "section": "05 The Collapse",
+      "vo": "whether Kenny bypassed the normal supply planning process,",
+      "est_sec": 3.2,
+      "visual": {
+        "type": "ai_motion",
+        "brief": "Abstract flowchart animation: a process diagram where one step/box is skipped by a curved arrow.",
+        "prompt": "Minimalist flat-icon animation, a simple flowchart of boxes and arrows where one box is skipped by a curved bypass arrow, clean vector style, paper background ink lines red accent"
+      }
+    },
+    {
+      "id": "05-10",
+      "section": "05 The Collapse",
+      "vo": "and whether a so-called quality review was used to eliminate two competing shrimp suppliers, leaving Thai Union with an exclusive deal at higher cost.",
+      "est_sec": 9.6,
+      "visual": {
+        "type": "doc_highlight",
+        "brief": "Highlight the declaration's 'quality review' language describing the supplier elimination.",
+        "doc": {
+          "source": "S25",
+          "quote": "in apparent coordination with Thai Union and under the guise of a ‘quality review,’ Mr. Kenny"
+        },
+        "source": "S25"
+      }
+    },
+    {
+      "id": "05-11",
+      "section": "05 The Collapse",
+      "vo": "Those are allegations. Thai Union has called them meritless.",
+      "est_sec": 3.6,
+      "visual": {
+        "type": "title_card",
+        "brief": "Legal-care stamp emphasizing these are allegations, not established facts.",
+        "on_screen_text": "ALLEGED"
+      }
+    },
+    {
+      "id": "05-12",
+      "section": "05 The Collapse",
+      "vo": "It also filed a counterclaim, arguing that Red Lobster's own sudden forecast changes left Thai Union holding nearly twenty-three million dollars of excess inventory.",
+      "est_sec": 9.6,
+      "visual": {
+        "type": "doc_highlight",
+        "brief": "Highlight Thai Union's counterclaim figure from its own filing, as reported.",
+        "doc": {
+          "source": "S26",
+          "quote": "left Thai Union with $22.9 million in excess inventory"
+        },
+        "source": "S26"
+      }
+    },
+    {
+      "id": "05-13",
+      "section": "05 The Collapse",
+      "vo": "In 2026, Red Lobster's creditors took the fight further and sued Thai Union, Kenny, and other former officers for breach of fiduciary duty.",
+      "est_sec": 9.2,
+      "visual": {
+        "type": "doc_highlight",
+        "brief": "Highlight the creditor lawsuit's own language about Thai Union's alleged conduct.",
+        "doc": {
+          "source": "S27",
+          "quote": "Thai Union doubled down on a campaign to squeeze out every drop of value that it could through uneconomic contracts"
+        },
+        "source": "S27"
+      }
+    },
+    {
+      "id": "05-14",
+      "section": "05 The Collapse",
+      "vo": "That case hasn't been decided.",
+      "est_sec": 2.0,
+      "visual": {
+        "type": "title_card",
+        "brief": "Neutral status card noting the litigation is unresolved.",
+        "on_screen_text": "Case ongoing, 2026"
+      }
+    },
+    {
+      "id": "05-15",
+      "section": "05 The Collapse",
+      "vo": "Whatever happened inside those meetings, the cash was disappearing. In May 2023, Red Lobster had about one hundred million dollars in the bank.",
+      "est_sec": 9.2,
+      "visual": {
+        "type": "chart",
+        "brief": "Line reveal: cash balance starting at $100M, May 2023.",
+        "chart_spec": {
+          "type": "line_reveal",
+          "theme": "paper",
+          "series": [
+            {
+              "label": "Cash on hand",
+              "values": [
+                100000000
+              ]
+            }
+          ],
+          "annotations": [
+            {
+              "x": 0,
+              "label": "May 2023: ~$100M in the bank"
+            }
+          ],
+          "source_line": "Source: Tibus Declaration, 2024"
+        },
+        "source": "S25",
+        "on_screen_text": "$100M cash, May 2023"
+      }
+    },
+    {
+      "id": "05-16",
+      "section": "05 The Collapse",
+      "vo": "Over roughly six months, operating losses, a forced debt paydown, and thirty-two million dollars of annual interest drained it to less than thirty million.",
+      "est_sec": 9.6,
+      "visual": {
+        "type": "chart",
+        "brief": "Line reveal continues: cash drains to under $30M over roughly six months.",
+        "chart_spec": {
+          "type": "line_reveal",
+          "theme": "paper",
+          "series": [
+            {
+              "label": "Cash on hand",
+              "values": [
+                100000000,
+                70000000,
+                45000000,
+                28000000
+              ]
+            }
+          ],
+          "annotations": [
+            {
+              "x": 3,
+              "label": "Nov 2023: <$30M"
+            }
+          ],
+          "source_line": "Source: Tibus Declaration, 2024"
+        },
+        "source": "S25",
+        "on_screen_text": "<$30M by Nov 2023"
+      }
+    },
+    {
+      "id": "05-17",
+      "section": "05 The Collapse",
+      "vo": "By September 2023, the company was in default with its lenders and operating under a forbearance agreement.",
+      "est_sec": 6.8,
+      "visual": {
+        "type": "stock",
+        "brief": "Generic bank building exterior / a 'notice of default' style document.",
+        "search": "bank building exterior generic finance"
+      }
+    },
+    {
+      "id": "05-18",
+      "section": "05 The Collapse",
+      "vo": "In January 2024, Thai Union announced it would exit its investment and write off five hundred thirty million dollars.",
+      "est_sec": 7.6,
+      "visual": {
+        "type": "chart",
+        "brief": "Number counter: $530M non-cash impairment as Thai Union announces its exit.",
+        "chart_spec": {
+          "type": "number_counter",
+          "theme": "paper",
+          "sequence": [
+            {
+              "value": 530000000,
+              "label": "Thai Union write-off, Jan 2024"
+            }
+          ],
+          "source_line": "Source: Restaurant Dive, Thai Union statement, Jan 2024"
+        },
+        "source": "S24",
+        "on_screen_text": "$530M write-off"
+      }
+    },
+    {
+      "id": "05-19",
+      "section": "05 The Collapse",
+      "vo": "Thai Union said owning Red Lobster no longer aligned with its capital allocation priorities.",
+      "est_sec": 5.6,
+      "visual": {
+        "type": "doc_highlight",
+        "brief": "Highlight Thai Union's own stated reason for exiting.",
+        "doc": {
+          "source": "S24",
+          "quote": "no longer align[s] with our capital allocation priorities"
+        },
+        "source": "S24"
+      }
+    },
+    {
+      "id": "05-20",
+      "section": "05 The Collapse",
+      "vo": "In May 2024, Red Lobster abruptly closed roughly fifty restaurants.",
+      "est_sec": 4.0,
+      "visual": {
+        "type": "archival",
+        "brief": "A closed restaurant storefront, papered-over windows, handwritten closure notice on the door.",
+        "search": "closed restaurant storefront papered windows closure notice"
+      }
+    },
+    {
+      "id": "05-21",
+      "section": "05 The Collapse",
+      "vo": "According to The American Prospect, employees found out when they showed up for work and saw the signs.",
+      "est_sec": 7.2,
+      "visual": {
+        "type": "stock",
+        "brief": "Continue: employees' perspective — a locked door and a taped-up sign, no identifiable people shown.",
+        "search": "locked restaurant door closed sign employees"
+      }
+    },
+    {
+      "id": "05-22",
+      "section": "05 The Collapse",
+      "vo": "On May 19, it filed for Chapter 11 bankruptcy protection in Florida.",
+      "est_sec": 4.8,
+      "visual": {
+        "type": "doc_highlight",
+        "brief": "Highlight the bankruptcy filing's docket header/case caption.",
+        "doc": {
+          "source": "S25",
+          "quote": "Case 6:24-bk-02486-GER Doc 6 Filed 05/19/24"
+        },
+        "source": "S22"
+      }
+    },
+    {
+      "id": "06-01",
+      "section": "06 The Verdict",
+      "vo": "So what actually killed Red Lobster? Start with the shrimp, because that's what everyone remembers.",
+      "est_sec": 6.0,
+      "visual": {
+        "type": "title_card",
+        "brief": "Mid-episode question card, sets up the verdict section.",
+        "on_screen_text": "WHAT ACTUALLY KILLED RED LOBSTER?"
+      }
+    },
+    {
+      "id": "06-02",
+      "section": "06 The Verdict",
+      "vo": "Eleven million dollars is a real loss. But it is a small number next to the company's other costs.",
+      "est_sec": 7.6,
+      "visual": {
+        "type": "chart",
+        "brief": "Number counter reprise: $11M, framed small this time.",
+        "chart_spec": {
+          "type": "number_counter",
+          "theme": "paper",
+          "sequence": [
+            {
+              "value": 11000000,
+              "label": "Shrimp promotion cost (small, next to other costs)"
+            }
+          ],
+          "source_line": "Source: Tibus Declaration, 2024"
+        },
+        "source": "S25"
+      }
+    },
+    {
+      "id": "06-03",
+      "section": "06 The Verdict",
+      "vo": "Now look at the rent.",
+      "est_sec": 2.0,
+      "visual": {
+        "type": "title_card",
+        "brief": "Simple section-transition card.",
+        "on_screen_text": "THE RENT"
+      }
+    },
+    {
+      "id": "06-04",
+      "section": "06 The Verdict",
+      "vo": "In 2023, Red Lobster spent about one hundred ninety million dollars on its leases.",
+      "est_sec": 5.6,
+      "visual": {
+        "type": "chart",
+        "brief": "Bar grows in: $190.5M total 2023 lease obligations.",
+        "chart_spec": {
+          "type": "bar_compare",
+          "theme": "paper",
+          "bars": [
+            {
+              "label": "2023 lease obligations",
+              "value": 190.5,
+              "unit": "$M"
+            }
+          ],
+          "source_line": "Source: Tibus Declaration, 2024 (687 leased locations)"
+        },
+        "source": "S25"
+      }
+    },
+    {
+      "id": "06-05",
+      "section": "06 The Verdict",
+      "vo": "That figure covers all six hundred eighty-seven leased locations, not only the properties sold in 2014,",
+      "est_sec": 6.4,
+      "visual": {
+        "type": "stock",
+        "brief": "Fast montage of many different restaurant exteriors, implying the scale of 687 leased locations.",
+        "search": "multiple restaurant exteriors montage chain locations"
+      }
+    },
+    {
+      "id": "06-06",
+      "section": "06 The Verdict",
+      "vo": "but the company's own filing singles out its leases as a central problem. A material portion, it says, were priced above market.",
+      "est_sec": 8.8,
+      "visual": {
+        "type": "doc_highlight",
+        "brief": "Highlight the filing's own characterization of the leases as a central problem.",
+        "doc": {
+          "source": "S25",
+          "quote": "A material portion of the Company’s leases are priced above market rates"
+        },
+        "source": "S25"
+      }
+    },
+    {
+      "id": "06-07",
+      "section": "06 The Verdict",
+      "vo": "And more than sixty-four million dollars of that rent went to restaurants that were underperforming.",
+      "est_sec": 6.0,
+      "visual": {
+        "type": "chart",
+        "brief": "Second bar grows in beside the first: $64M tied to underperforming stores.",
+        "chart_spec": {
+          "type": "bar_compare",
+          "theme": "paper",
+          "bars": [
+            {
+              "label": "2023 lease obligations",
+              "value": 190.5,
+              "unit": "$M"
+            },
+            {
+              "label": "Rent on underperforming stores",
+              "value": 64,
+              "unit": "$M"
+            }
+          ],
+          "source_line": "Source: Tibus Declaration, 2024"
+        },
+        "source": "S25"
+      }
+    },
+    {
+      "id": "06-08",
+      "section": "06 The Verdict",
+      "vo": "In other words, Red Lobster spent almost six times its entire shrimp loss, every year,",
+      "est_sec": 6.0,
+      "visual": {
+        "type": "chart",
+        "brief": "Third bar for direct comparison: $11M shrimp loss vs. $64M underperforming-store rent — the '6x' callout.",
+        "chart_spec": {
+          "type": "bar_compare",
+          "theme": "paper",
+          "bars": [
+            {
+              "label": "Endless Shrimp loss",
+              "value": 11,
+              "unit": "$M"
+            },
+            {
+              "label": "Rent on underperforming stores",
+              "value": 64,
+              "unit": "$M"
+            }
+          ],
+          "source_line": "Source: Tibus Declaration, 2024 (calc.)"
+        },
+        "source": "S25",
+        "on_screen_text": "~6x the shrimp loss, every year"
+      }
+    },
+    {
+      "id": "06-09",
+      "section": "06 The Verdict",
+      "vo": "just on rent for the restaurants that weren't pulling their weight.",
+      "est_sec": 4.4,
+      "visual": {
+        "type": "stock",
+        "brief": "An empty, underperforming restaurant dining room, quiet and half-lit.",
+        "search": "quiet underperforming restaurant dining room half empty"
+      }
+    },
+    {
+      "id": "06-10",
+      "section": "06 The Verdict",
+      "vo": "That's the structural problem the 2014 deal created. Before the sale-leaseback, a weak restaurant on owned land could be closed, sold, or waited out.",
+      "est_sec": 9.6,
+      "visual": {
+        "type": "stock",
+        "brief": "A 'For Sale' sign staked in front of a restaurant building on its own land, contrasted with a leased one.",
+        "search": "for sale sign restaurant building land"
+      }
+    },
+    {
+      "id": "06-11",
+      "section": "06 The Verdict",
+      "vo": "After it, the weak restaurant came with a lease,",
+      "est_sec": 3.6,
+      "visual": {
+        "type": "ai_motion",
+        "brief": "Abstract animation: a simple building icon gains a lock/chain overlay, signifying it's now bound to a lease.",
+        "prompt": "Minimalist flat-icon animation, a building outline icon gaining a chain and padlock overlay, clean vector style, paper background ink lines red accent"
+      }
+    },
+    {
+      "id": "06-12",
+      "section": "06 The Verdict",
+      "vo": "and the rent kept rising two percent a year whether the dining room was full or empty.",
+      "est_sec": 6.8,
+      "visual": {
+        "type": "ai_motion",
+        "brief": "Continue: a small arrow steadily ratchets upward, one notch per year, next to the locked building icon.",
+        "prompt": "Minimalist flat-icon animation, a small arrow ratcheting upward in discrete steps beside a locked building icon, clean vector style, paper background ink lines red accent"
+      }
+    },
+    {
+      "id": "06-13",
+      "section": "06 The Verdict",
+      "vo": "The industry saw it that way too. As one food service executive told Restaurant Dive, when that real estate deal took off,",
+      "est_sec": 8.8,
+      "visual": {
+        "type": "stock",
+        "brief": "Generic trade-press / industry conference setting, magazines and laptops, no identifiable people.",
+        "search": "restaurant industry trade conference generic"
+      }
+    },
+    {
+      "id": "06-14",
+      "section": "06 The Verdict",
+      "vo": "that was the beginning of the economics starting to go south.",
+      "est_sec": 4.4,
+      "visual": {
+        "type": "doc_highlight",
+        "brief": "Highlight the Restaurant Dive executive quote about the real estate deal's role.",
+        "doc": {
+          "source": "S41",
+          "quote": "When that real estate deal took off, that was the beginning of the economics starting to go south"
+        },
+        "source": "S41"
+      }
+    },
+    {
+      "id": "06-15",
+      "section": "06 The Verdict",
+      "vo": "But the lease alone doesn't explain the timing. Red Lobster carried that rent for nine years before it failed.",
+      "est_sec": 7.6,
+      "visual": {
+        "type": "chart",
+        "brief": "Timeline spanning 2014 to 2023, marking nine years of carried rent before the bankruptcy.",
+        "chart_spec": {
+          "type": "timeline",
+          "theme": "paper",
+          "events": [
+            {
+              "date": "2014",
+              "label": "Sale-leaseback begins"
+            },
+            {
+              "date": "2023",
+              "label": "Nine years of rising rent later"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "06-16",
+      "section": "06 The Verdict",
+      "vo": "What changed was everything around it: a thirty percent drop in guests, inflation, a revolving door of CEOs,",
+      "est_sec": 7.2,
+      "visual": {
+        "type": "stock",
+        "brief": "Rapid montage: empty tables, a grocery receipt, a revolving office door — all the other pressures compounding.",
+        "search": "montage empty restaurant grocery receipt revolving door"
+      }
+    },
+    {
+      "id": "06-17",
+      "section": "06 The Verdict",
+      "vo": "an owner who was also a supplier, and a shrimp promotion that arrived exactly when the company had no cash cushion left.",
+      "est_sec": 8.8,
+      "visual": {
+        "type": "stock",
+        "brief": "Continue montage: an Endless Shrimp plate, then an empty cash drawer, tying it together.",
+        "search": "shrimp plate empty cash drawer restaurant"
+      }
+    },
+    {
+      "id": "06-18",
+      "section": "06 The Verdict",
+      "vo": "So here is the fairest verdict the documents support. The 2014 sale-leaseback removed Red Lobster's margin for error, years before the company failed.",
+      "est_sec": 9.2,
+      "visual": {
+        "type": "title_card",
+        "brief": "Section bumper for the analytical verdict.",
+        "on_screen_text": "THE VERDICT"
+      }
+    },
+    {
+      "id": "06-19",
+      "section": "06 The Verdict",
+      "vo": "The shrimp promotion was simply the mistake that finally arrived once that margin was gone.",
+      "est_sec": 6.0,
+      "visual": {
+        "type": "stock",
+        "brief": "Endless Shrimp signage one more time, now framed as the final blow rather than the whole story.",
+        "search": "Endless Shrimp sign restaurant final shot"
+      }
+    },
+    {
+      "id": "06-20",
+      "section": "06 The Verdict",
+      "vo": "So who got paid? Darden got its check in 2014. The landlord collected rent every year.",
+      "est_sec": 6.4,
+      "visual": {
+        "type": "chart",
+        "brief": "Deal-flow diagram: money moving from Red Lobster to Darden (2014 check) and to the landlord (annual rent).",
+        "chart_spec": {
+          "type": "deal_flow",
+          "theme": "paper",
+          "nodes": [
+            {
+              "id": "rl",
+              "label": "Red Lobster",
+              "x": 500,
+              "y": 400
+            },
+            {
+              "id": "darden",
+              "label": "Darden (2014)",
+              "x": 150,
+              "y": 150
+            },
+            {
+              "id": "landlord",
+              "label": "Landlord",
+              "x": 850,
+              "y": 150
+            }
+          ],
+          "edges": [
+            {
+              "from": "rl",
+              "to": "darden",
+              "label": "one-time proceeds, 2014",
+              "delay": 0
+            },
+            {
+              "from": "rl",
+              "to": "landlord",
+              "label": "rent, every year since",
+              "delay": 1.5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "06-21",
+      "section": "06 The Verdict",
+      "vo": "Golden Gate sold down its stake in 2016 and 2020.",
+      "est_sec": 4.0,
+      "visual": {
+        "type": "chart",
+        "brief": "Timeline marking Golden Gate's partial exit in 2016 and full exit in 2020.",
+        "chart_spec": {
+          "type": "timeline",
+          "theme": "paper",
+          "events": [
+            {
+              "date": "2016",
+              "label": "Golden Gate sells stake to Thai Union"
+            },
+            {
+              "date": "2020",
+              "label": "Golden Gate exits fully"
+            }
+          ]
+        },
+        "source": "S24"
+      }
+    },
+    {
+      "id": "06-22",
+      "section": "06 The Verdict",
+      "vo": "That's mostly fair, with two caveats. First, not everyone won. Thai Union wrote off five hundred thirty million dollars.",
+      "est_sec": 7.6,
+      "visual": {
+        "type": "chart",
+        "brief": "Number counter recap: Thai Union's $530M write-off, the clearest loser in the chain.",
+        "chart_spec": {
+          "type": "number_counter",
+          "theme": "paper",
+          "sequence": [
+            {
+              "value": 530000000,
+              "label": "Thai Union write-off"
+            }
+          ],
+          "source_line": "Source: Restaurant Dive, Thai Union statement, Jan 2024"
+        },
+        "source": "S24"
+      }
+    },
+    {
+      "id": "06-23",
+      "section": "06 The Verdict",
+      "vo": "And Golden Gate's full returns aren't public, because private equity firms don't report them deal by deal.",
+      "est_sec": 6.8,
+      "visual": {
+        "type": "stock",
+        "brief": "Generic private-equity firm office building exterior, understated.",
+        "search": "private equity firm office building exterior"
+      }
+    },
+    {
+      "id": "06-24",
+      "section": "06 The Verdict",
+      "vo": "Second, the landlord wasn't risk-free either. In bankruptcy, a company can reject leases it no longer wants.",
+      "est_sec": 6.8,
+      "visual": {
+        "type": "stock",
+        "brief": "Courthouse exterior / gavel-adjacent generic legal imagery for the bankruptcy-rejection point.",
+        "search": "courthouse exterior generic legal bankruptcy"
+      }
+    },
+    {
+      "id": "06-25",
+      "section": "06 The Verdict",
+      "vo": "But the pattern is real, and it's common. A sale-leaseback moves risk away from the people providing the capital and onto the operating business.",
+      "est_sec": 9.6,
+      "visual": {
+        "type": "ai_motion",
+        "brief": "Abstract diagram: a risk arrow moves from a 'capital' icon toward an 'operating business' icon.",
+        "prompt": "Minimalist flat-icon animation, an arrow labeled risk moving from a coin-stack icon to a storefront icon, clean vector style, paper background ink lines red accent"
+      }
+    },
+    {
+      "id": "06-26",
+      "section": "06 The Verdict",
+      "vo": "Early owners can take their money out. The rent stays with whoever runs the restaurants.",
+      "est_sec": 6.0,
+      "visual": {
+        "type": "stock",
+        "brief": "A present-day Red Lobster restaurant exterior, calm, ordinary.",
+        "search": "Red Lobster restaurant exterior present day"
+      }
+    },
+    {
+      "id": "06-27",
+      "section": "06 The Verdict",
+      "vo": "In September 2024, Red Lobster emerged from bankruptcy, owned by the lenders who had financed it, led by Fortress Investment Group.",
+      "est_sec": 8.4,
+      "visual": {
+        "type": "title_card",
+        "brief": "Bold stat card: the September 2024 emergence from bankruptcy.",
+        "on_screen_text": "Emerges from bankruptcy · Sept 2024 · Fortress Investment Group"
+      }
+    },
+    {
+      "id": "06-28",
+      "section": "06 The Verdict",
+      "vo": "It came out with about five hundred forty-five restaurants and a new CEO, Damola Adamolekun. It still leases its buildings.",
+      "est_sec": 8.0,
+      "visual": {
+        "type": "stock",
+        "brief": "Closing shot of a Red Lobster restaurant exterior with a 'still leasing' visual cue — a landlord sign in frame.",
+        "search": "Red Lobster restaurant exterior lease sign"
+      }
+    },
+    {
+      "id": "07-01",
+      "section": "07 The Lesson",
+      "vo": "Every deal has a price, and most people only look at the number on the front page.",
+      "est_sec": 6.8,
+      "visual": {
+        "type": "stock",
+        "brief": "Close-up of dollar bills / a price tag, the number everyone focuses on.",
+        "search": "dollar bills price tag close up"
+      }
+    },
+    {
+      "id": "07-02",
+      "section": "07 The Lesson",
+      "vo": "Two point one billion dollars. One point five billion for the real estate.",
+      "est_sec": 5.2,
+      "visual": {
+        "type": "chart",
+        "brief": "Number counter recap: $2.1B and $1.5B, the headline figures.",
+        "chart_spec": {
+          "type": "number_counter",
+          "theme": "paper",
+          "sequence": [
+            {
+              "value": 2100000000,
+              "label": "Price paid, 2014"
+            },
+            {
+              "value": 1500000000,
+              "label": "Real estate sold, 2014"
+            }
+          ],
+          "source_line": "Source: Starboard Value DEFC14A, Aug 2014"
+        },
+        "source": "S05"
+      }
+    },
+    {
+      "id": "07-03",
+      "section": "07 The Lesson",
+      "vo": "The more important price is the one that shows up every month for the next decade.",
+      "est_sec": 6.4,
+      "visual": {
+        "type": "stock",
+        "brief": "Calendar pages flipping, or a stack of monthly invoices, implying the recurring price nobody watches.",
+        "search": "calendar pages flipping monthly invoices"
+      }
+    },
+    {
+      "id": "07-04",
+      "section": "07 The Lesson",
+      "vo": "When a company sells the ground it stands on, it swaps a one-time check for a permanent bill.",
+      "est_sec": 7.2,
+      "visual": {
+        "type": "ai_motion",
+        "brief": "Abstract animation: a one-time check icon morphs into a recurring/looping bill icon.",
+        "prompt": "Minimalist flat-icon animation, a single check icon transforming into a looping recurring-bill icon, clean vector style, paper background ink lines red accent"
+      }
+    },
+    {
+      "id": "07-05",
+      "section": "07 The Lesson",
+      "vo": "Sometimes that's the right call.",
+      "est_sec": 2.0,
+      "visual": {
+        "type": "title_card",
+        "brief": "Neutral, brief acknowledgment card.",
+        "on_screen_text": "Sometimes, the right call"
+      }
+    },
+    {
+      "id": "07-06",
+      "section": "07 The Lesson",
+      "vo": "But it means the business has to win every year, because the rent will be there whether it does or not.",
+      "est_sec": 8.4,
+      "visual": {
+        "type": "stock",
+        "brief": "A restaurant's 'open' sign being flipped, day after day, implying the daily grind of covering the rent.",
+        "search": "restaurant open sign flipping daily"
+      }
+    },
+    {
+      "id": "07-07",
+      "section": "07 The Lesson",
+      "vo": "Red Lobster's rent was there every year. In 2023, the business stopped winning.",
+      "est_sec": 5.2,
+      "visual": {
+        "type": "archival",
+        "brief": "Closing image echoing the cold open: a closed/bankrupt Red Lobster storefront, quiet.",
+        "search": "closed Red Lobster restaurant storefront quiet"
+      }
+    }
+  ]
+}

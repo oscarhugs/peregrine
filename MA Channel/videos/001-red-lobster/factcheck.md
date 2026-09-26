@@ -20,7 +20,7 @@
 | 16 | (calc) $2.1B − $1.5B ≈ $0.6B "remainder for restaurant business" | ✅ | recomputed: 2.1−1.5=0.6 | math correct; note this is gross-based, distinct from Starboard's net-based $100M figure — script keeps these separate, good |
 | 17 | Starboard: "$100 million... less than 1x EBITDA" | ✅ | S05 "just $100 million in value... or less than 1x EBITDA" | verbatim quote; script correctly frames as Starboard's argument |
 | 18 | Rent escalator ~2%/year | ✅ | S41 | consistent with S41 characterization |
-| 19 | Oct 2014: Darden board replaced by Starboard slate | ❓ | none verified | S05 (filed Aug 25, 2014) only shows the *plan* for an Oct 10, 2014 vote — it cannot confirm the outcome. Script already flags this as SOURCE NEEDED — correct, do not cite without a post-vote source (e.g., Reuters Oct 2014) |
+| 19 | Oct 2014: all 12 Darden directors replaced by Starboard slate | ✅ | S55 (Fortune, 2014-10-10) "wins all 12 board seats" | resolved 2026-09-26: script line 72 now cites S55 |
 | 20 | Thai Union 2016: $575M for large minority stake | ✅ | S25 "$575 million strategic investment... 49% stake" | ok, "large minority" accurate for 49% |
 | 21 | 2020: Thai Union-led group bought Golden Gate's stake | ✅ | S25 + S24(unverified corroboration only) | S25 alone confirms; S24 is UNVERIFIED SUMMARY per audit, don't rely on it — but S25 suffices |
 | 22 | Thai Union held 47% common equity + 100% preferred at filing | ✅ | S25 "approximately 47% of common equity... 100% of the preferred equity units" | verbatim |
@@ -52,5 +52,16 @@
 1. **Line 14 ("seventeen times")** — add a `(calc)` tag for consistency with the rest of the script's convention: `(calc: 190.5 / 11 ≈ 17.3)`. No wording change needed; math is correct.
 2. **Line 78, S24 citation** — S24 is on the verified list (per Audit), so citing it is fine; however where the script leans on Thai Union's *own* 2016 stake breakdown (25%+24% convertible) it isn't in the script, so no change needed there. No fix required.
 3. **Line 98 ("about twenty-three million dollars")** — source says $22.9 million (S26). Recommend tightening to "almost twenty-three million dollars" or leave as-is; both are defensible rounding, but confirm this is a deliberate round, not confusion with a different figure.
-4. **Line 72, SOURCE NEEDED (Oct 2014 board replacement)** — confirmed no verified source supports the outcome of the vote. Either cut the line or fetch a post-Oct-10-2014 source (Reuters/WSJ/Darden 8-K) before airing. Do not cite S05 for this — S05 predates the vote.
+4. **Line 72 (Oct 2014 board replacement)** — RESOLVED 2026-09-26: sourced to S55 (Fortune, 2014-10-10).
 5. No defamation issues found: all Thai Union / Paul Kenny claims in §04–§05 are already hedged ("investigating whether," "the filing says," "alleged," "Thai Union has called them meritless") and match source wording.
+
+## Addendum 2026-09-26: cold open rewrite (Opus, checked directly against sources)
+| # | claim | verdict | source | note |
+|---|---|---|---|---|
+| A1 | Shrimp cost $11M | ✅ | S25 l.383 "costing the Debtors $11 million" | verbatim |
+| A2 | 2023 rent bill ~$190M | ✅ | S25 l.370 "approximately $190.5 million in lease obligations" | "rent bill" = lease obligations, all 687 leases (clarified in §06) |
+| A3 | Both figures in the same sworn statement by the restructuring chief | ✅ | S25 (Tibus first-day declaration) | |
+| A4 | "seventeen times bigger" | ✅ (calc) | 190.5 / 11 = 17.3 | |
+| A5 | Before 2014, RL owned much of the real estate it operated on | ✅ | S41 l.7 "sold the real estate Red Lobster owned for $1.5 billion" | softened from "most of the buildings" (unsupported) |
+| A6 | "the company that supplied the shrimp" | ✅ | S25 (Thai Union "large-scale supplier") | replaced "caught" (inaccurate) |
+Previous version saved as `script.v2.md`.

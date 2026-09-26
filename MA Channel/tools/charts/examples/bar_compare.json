@@ -1,0 +1,17 @@
+{
+  "type": "bar_compare",
+  "theme": "paper",
+  "title": "Price paid versus value later",
+  "source": "Illustrative example (fictional)",
+  "duration": 5,
+  "out": "../out/bar_compare.mp4",
+  "prefix": "$",
+  "suffix": "B",
+  "decimals": 1,
+  "highlight": 0,
+  "bars": [
+    {"label": "Purchase price", "value": 11.1},
+    {"label": "Five years later", "value": 7.4},
+    {"label": "Written down", "value": 3.7}
+  ]
+}

@@ -1,19 +1,19 @@
 # 001 — Red Lobster Wasn't Killed by Endless Shrimp
 
 > Draft 1, Opus, 2026-09-26. Built from dossier.md. Before the review: editor pass (humanizer) → fact-checker → Oscar.
-> Length: ~2,100 words, ~14 min (draft 4, approved). Original ~22 min target dropped.
+> Target ~3,300 words, ~22 min.
 
 ## 00 Cold Open
 
-In May 2024, Red Lobster filed for bankruptcy, and the internet blamed a twenty-dollar plate of endless shrimp. The shrimp cost eleven million dollars. That same year, Red Lobster's rent bill was about one hundred and ninety million. [S25] [VISUAL: number_counter $11M → $190.5M over a fast montage of Endless Shrimp ads and viral headlines]
+In May 2024, Red Lobster filed for bankruptcy. The internet already had its culprit. A twenty-dollar plate of all-you-can-eat shrimp. [VISUAL: montage of Endless Shrimp ads and viral headlines]
 
-Both numbers come from the same sworn statement, filed by the company's own restructuring chief. [S25] [VISUAL: doc_highlight S25 "costing the Debtors $11 million", then "$190.5 million in lease obligations"]
+And the shrimp did hurt. The company's own restructuring chief put the damage at eleven million dollars. [S25] [VISUAL: doc_highlight S25 "costing the Debtors $11 million"]
 
-The shrimp story is easy to tell. It's also the least interesting part of what happened.
+But the same sworn statement contains a much bigger number. In 2023, Red Lobster spent about one hundred and ninety million dollars on rent. [S25] [VISUAL: number_counter $11M → $190.5M]
 
-Before 2014, Red Lobster owned much of the real estate it operated on. [S41] So how did Red Lobster end up with a rent bill seventeen times bigger than its shrimp disaster? (calc: 190.5 / 11 ≈ 17)
+For decades, this company owned most of the buildings it operated in. So how did Red Lobster end up paying seventeen times its shrimp disaster in rent, every single year?
 
-The answer is a deal. It was signed in 2014, and it involved a restaurant company, a private equity firm, a real estate investment trust, and, later, the company that supplied the shrimp.
+The answer is a deal. It was signed in 2014, and it involved a restaurant company, a private equity firm, a real estate investment trust, and, later, the company that caught the shrimp.
 
 This is the postmortem of that deal.
 
@@ -65,9 +65,7 @@ Why would a private equity firm structure a deal like this? The logic is well kn
 
 The risk sits with the tenant. Rent doesn't care whether customers show up. It escalates in good years and bad ones.
 
-A sale-leaseback isn't a bad tool. It makes sense when the real estate is worth more to a property investor than it is sitting inside an operating company, when the cash goes somewhere that earns more than the rent costs, and when the business is healthy enough to cover that rent comfortably in a bad year, not just a good one.
-
-What would worry an advisor here is the bundling. When strong and weak restaurants sit in the same master lease, you can't walk away from the losers one by one. Add rent that rises every year no matter how the stores perform, and a flexible business turns into a fixed-cost one. And the cash from selling the buildings went to the deal, not to the restaurants. [S05] [S25]
+> OSCAR: your take as a practitioner. When does a sale-leaseback make sense for an operating company, and what in this one's structure (term, escalator, which stores were included) would have worried you?
 
 Starboard lost that battle but won the war. In October 2014, Darden's shareholders voted out all twelve directors and replaced them with Starboard's slate. [S55] But the Red Lobster sale had already closed. [VISUAL: title card "All 12 Darden directors replaced · Oct 10, 2014"]
 
@@ -123,11 +121,7 @@ But the lease alone doesn't explain the timing. Red Lobster carried that rent fo
 
 So here is the fairest verdict the documents support. The 2014 sale-leaseback removed Red Lobster's margin for error, years before the company failed. The shrimp promotion was simply the mistake that finally arrived once that margin was gone.
 
-So who got paid? Darden got its check in 2014. The landlord collected rent every year. Golden Gate sold down its stake in 2016 and 2020. [S05] [S24]
-
-That's mostly fair, with two caveats. First, not everyone won. Thai Union wrote off five hundred thirty million dollars. [S24] And Golden Gate's full returns aren't public, because private equity firms don't report them deal by deal. Second, the landlord wasn't risk-free either. In bankruptcy, a company can reject leases it no longer wants.
-
-But the pattern is real, and it's common. A sale-leaseback moves risk away from the people providing the capital and onto the operating business. Early owners can take their money out. The rent stays with whoever runs the restaurants.
+> OSCAR: one or two sentences on who got paid. Darden got its check in 2014. The property owner kept collecting rent. Golden Gate sold down its stake in 2016 and 2020. The restaurant, its employees, and its unsecured creditors carried the risk. Is that a fair summary in your view, and how common is that pattern?
 
 In September 2024, Red Lobster emerged from bankruptcy, owned by the lenders who had financed it, led by Fortress Investment Group. [S23] It came out with about five hundred forty-five restaurants and a new CEO, Damola Adamolekun. [S23] It still leases its buildings.
 
