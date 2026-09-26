@@ -5,3 +5,4 @@ tools/voice/out/
 videos/*/vo/
 videos/*/assets/raw/
 __pycache__/
+videos/*/sources/raw/

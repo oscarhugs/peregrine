@@ -4,7 +4,8 @@ _Last updated: 2026-09-26_
 
 ## In progress
 
-- **Deal Postmortem** (M&A faceless channel, `MA Channel/`): Week 1 in progress. Claude's parts are done (brand kit, thumbnail templates, trend miner + first report, Codex voice brief). Waiting on the user (`CHANNEL_SETUP.md`: create channel, upload branding, tool accounts, voice recording) and Codex (`tools/voice/CODEX_TASK.md`).
+- **Deal Postmortem** (M&A faceless channel, `MA Channel/`): Week 1 Claude parts done; user still owes `CHANNEL_SETUP.md` (Google account/channel, branding, tools, voice recording).
+- **Pilot 001 Red Lobster** (`MA Channel/videos/001-red-lobster/`): sources collected + audited (13 verified), `dossier.md` done, `script.md` draft 1 (~1,900 words ≈ 12.5 min) humanized and fact-checked (`factcheck.md`: 0 wrong, all fixes applied). **Waiting on Oscar:** review the script + fill the 2 `> OSCAR:` notes (sections 03, 06). Then: storyboarder → publish pass → thumbnails.
 
 ## Next up
 
@@ -13,7 +14,8 @@ _Last updated: 2026-09-26_
   2. `MA Channel/tools/charts/CODEX_TASK.md`: animated branded charts/deal diagrams
   3. `MA Channel/tools/doc_highlighter/CODEX_TASK.md`: SEC filing highlighter (needs `SEC_USER_AGENT` in `MA Channel/.env`)
   4. (later) video assembler: brief comes after Claude defines the storyboard format in Week 2
-- Deal Postmortem Week 2: pilot video #1 end-to-end. Pick from PLAN.md ideas #1–3 (JAB 'secretly owns your breakfast', Red Lobster sale-leaseback, HP–Autonomy). Claude writes prompts/ templates + dossier → script → storyboard.
+- Red Lobster pilot: after Oscar's review, run storyboarder (Sonnet) → write video-assembler Codex brief from the storyboard schema → editor publish pass → 3 thumbnails.
+- Need from Oscar: email for SEC_USER_AGENT (in `MA Channel/.env`) to fetch the 2014 Darden/ARCP 8-Ks and confirm the $2.1B / $1.5B figures (currently sourced to the Starboard proxy).
 - ZoomInfo lead work: see `Zoominfo Scraper/STATE.md` (own repo, own state file).
 
 ## Recently done
@@ -32,4 +34,5 @@ _Last updated: 2026-09-26_
 - Codex works in this repo too (cloud or a clone on the other computer). It follows `AGENTS.md`, which mirrors the `CLAUDE.md` protocol; its STATE entries are prefixed `[Codex]`. Always `git pull` before starting.
 - Tooling decisions (2026-09-26): installed MarkItDown (docs→markdown, used with targeted search) and the `humanizer` skill (`.claude/skills/humanizer`, blader/humanizer MIT); run it on every script and description before review. Ponytail goes in Codex only. Skipped: caveman, Jev/Laya, claude-mem, taste-skill/impeccable/awesome-design-md (web UI design; `brand/BRAND.md` covers our design system). Task Observer: revisit after the pilot.
 - SEC highlighter: use the existing browser for HTML rendering and visual QA; do not add Playwright or download a second Chromium runtime.
+- Squad in `.claude/agents/` (source-fetcher=Haiku; analyst, fact-checker, storyboarder, editor=Sonnet). Lesson: Haiku fetchers wrote summaries from memory when downloads failed, so audit every source file (tool output only, >2 KB, verbatim) before the analyst uses it.
 - User's laptop: no NVIDIA GPU (Intel UHD 620, 8 GB RAM), so GPU work (voice, local models) runs on RunPod/Colab.
