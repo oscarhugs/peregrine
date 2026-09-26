@@ -11,6 +11,8 @@ Spec fields:
     text:     "They Sold The Building"      (keep to 2-4 words)
     underline: "Sold"                        (A only, optional)
     figure:   "$1.5B"                        (B only, optional)
+    figure_prev: "$11M"                      (B only, optional: smaller white figure above, struck through in red)
+    arrow:    "down" | "up" | "none"         (B only, default "down")
     hero:     path to a PNG/JPG (transparent PNG cut-outs look best); optional
     hero_side: "right" | "left"              (default right)
     out:      output path
@@ -127,6 +129,11 @@ def down_arrow(d, x, y, s):
                (x + s * 0.5, y + s * 2.4), (x - s * 0.6, y + s * 1.2), (x, y + s * 1.2)], fill=RED)
 
 
+def up_arrow(d, x, y, s):
+    d.polygon([(x, y + s * 2.4), (x + s, y + s * 2.4), (x + s, y + s * 1.2), (x + s * 1.6, y + s * 1.2),
+               (x + s * 0.5, y), (x - s * 0.6, y + s * 1.2), (x, y + s * 1.2)], fill=RED)
+
+
 def template_b(spec):
     img = Image.new("RGBA", (W, H), DARK)
     glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
@@ -137,10 +144,18 @@ def template_b(spec):
     d = ImageDraw.Draw(img)
     text_x = 60 if side == "right" else W - 660
     top = 70
+    if spec.get("figure_prev"):
+        fprev = font("condensed", 96)
+        d.text((text_x, top), spec["figure_prev"], font=fprev, fill=WHITE)
+        pw = d.textlength(spec["figure_prev"], font=fprev)
+        d.line([(text_x - 8, top + 64), (text_x + pw + 8, top + 52)], fill=RED, width=12)
+        top += 125
     if spec.get("figure"):
         ffig = font("condensed", 150)
         d.text((text_x, top), spec["figure"], font=ffig, fill=YELLOW)
-        down_arrow(d, text_x + d.textlength(spec["figure"], font=ffig) + 30, top + 20, 50)
+        arrow = {"down": down_arrow, "up": up_arrow}.get(spec.get("arrow", "down"))
+        if arrow:
+            arrow(d, text_x + d.textlength(spec["figure"], font=ffig) + 30, top + 20, 50)
         top += 190
     fnt, lines, size = fit_text(d, spec["text"].upper(), "condensed", 600, H - top - 60, start=170)
     y = top

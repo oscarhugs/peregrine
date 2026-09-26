@@ -1,7 +1,7 @@
 # 001 — Red Lobster Wasn't Killed by Endless Shrimp
 
 > Draft 1, Opus, 2026-09-26. Built from dossier.md. Before the review: editor pass (humanizer) → fact-checker → Oscar.
-> Target ~3,300 words, ~22 min.
+> Length: ~2,100 words, ~14 min (draft 4, approved). Original ~22 min target dropped.
 
 ## 00 Cold Open
 
