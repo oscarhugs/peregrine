@@ -1,0 +1,17 @@
+{
+  "type": "deal_flow",
+  "theme": "paper",
+  "title": "Where the money moved",
+  "source": "Illustrative example (fictional)",
+  "duration": 6,
+  "out": "../out/deal_flow.mp4",
+  "nodes": [
+    {"id": "fund", "label": "Buyout fund", "x": 0.19, "y": 0.52},
+    {"id": "brand", "label": "Restaurant brand", "x": 0.50, "y": 0.52},
+    {"id": "reit", "label": "Property buyer", "x": 0.81, "y": 0.52}
+  ],
+  "edges": [
+    {"from": "fund", "to": "brand", "label": "acquires", "delay": 0.0},
+    {"from": "brand", "to": "reit", "label": "sells property", "delay": 0.6}
+  ]
+}

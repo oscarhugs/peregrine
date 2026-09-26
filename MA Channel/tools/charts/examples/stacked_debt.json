@@ -1,0 +1,15 @@
+{
+  "type": "stacked_debt",
+  "theme": "night",
+  "title": "How the buyout was funded",
+  "source": "Illustrative example (fictional)",
+  "duration": 5,
+  "out": "../out/stacked_debt.mp4",
+  "prefix": "$",
+  "suffix": "B",
+  "decimals": 1,
+  "layers": [
+    {"label": "Equity", "value": 1.4},
+    {"label": "Debt", "value": 4.6}
+  ]
+}

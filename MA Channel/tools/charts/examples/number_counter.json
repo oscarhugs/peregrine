@@ -1,0 +1,14 @@
+{
+  "type": "number_counter",
+  "theme": "night",
+  "title": "A bigger debt load",
+  "source": "Illustrative example (fictional)",
+  "duration": 4,
+  "out": "../out/number_counter.mp4",
+  "from": 0,
+  "to": 1.5,
+  "prefix": "$",
+  "suffix": "B",
+  "decimals": 1,
+  "caption": "borrowed to fund the transaction"
+}
